@@ -1,0 +1,120 @@
+﻿23:25:55: CLR host plugin strings not found, dynamically loading 4 strings
+23:25:55: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+23:25:55: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+23:25:55: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+23:25:55: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+23:25:55: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+23:26:01: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+23:26:01: -------------------------------
+23:26:01: CPU Name: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+23:26:01: CPU Speed: 3000MHz
+23:26:01: Physical Memory:  3071MB Total, 2474MB Free
+23:26:01: stepping id: 9, model 158, family 6, type 0, extmodel 4, extfamily 0, HTT 1, logical cores 2, total cores 2
+23:26:01: monitor 1: pos={0, 0}, size={1280, 720}
+23:26:01: Windows Version: 6.1 Build 7601 S
+23:26:01: Aero is Disabled
+23:26:01: -------------------------------
+23:26:01: OBS Modules:
+23:26:01: Base Address     Module
+23:26:01: 00E20000         OBS.exe
+23:26:01: 6ECE0000         OBSApi.dll
+23:26:01: 72220000         CLRHostPlugin.dll
+23:26:01: 69BD0000         DShowPlugin.dll
+23:26:01: 71D20000         GraphicsCapture.dll
+23:26:01: 69BA0000         NoiseGate.dll
+23:26:01: 69B80000         PSVPlugin.dll
+23:26:01: 69B60000         scenesw.dll
+23:26:01: ------------------------------------------
+23:26:01: Adapter 1
+23:26:01:   Video Adapter: VMware SVGA 3D
+23:26:01:   Video Adapter Dedicated Video Memory: 872415232
+23:26:01:   Video Adapter Shared System Memory: 734003200
+23:26:01:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+23:26:01: =====Stream Start: 2021-03-27, 23:26:01===============================================
+23:26:01:   Multithreaded optimizations: On
+23:26:01:   Base resolution: 1280x720
+23:26:01:   Output resolution: 1280x720
+23:26:01: ------------------------------------------
+23:26:01: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+23:26:01: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+23:26:01: ------------------------------------------
+23:26:01: Audio Format: 48000 Hz
+23:26:01: ------------------------------------------
+23:26:01: Audio Channels: 2 Ch
+23:26:01: Playback device Default
+23:26:01: ------------------------------------------
+23:26:01: Using desktop audio input: Speakers (High Definition Audio Device)
+23:26:01: Global Audio time adjust: 0
+23:26:01: ------------------------------------------
+23:26:01: Using auxilary audio input: Microphone (High Definition Audio Device)
+23:26:01: Mic time offset: 0
+23:26:01: ------------------------------------------
+23:26:01: Audio Encoding: AAC
+23:26:01:     bitrate: 128
+Warning -- OBS::CreateImageSource: Could not find image source class 'CLRBrowserSource'
+Warning -- Could not create image source 'CLR Browser' in scene 'Monitor'
+23:26:01: Using Monitor Capture
+23:26:01: Scene buffering time set to 700
+23:26:01: ------------------------------------------
+23:26:01: Video Encoding: x264
+23:26:01:     fps: 25
+23:26:01:     width: 1280, height: 720
+23:26:01:     preset: superfast
+23:26:01:     profile: high
+23:26:01:     keyint: 50
+23:26:01:     CBR: yes
+23:26:01:     CFR: yes
+23:26:01:     max bitrate: 2500
+23:26:01:     buffer size: 2500
+23:26:01: ------------------------------------------
+23:26:03:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+23:26:03: Completed handshake with rtmp://eu-central.restream.io/live in 90 ms.
+23:26:04: SO_SNDBUF was at 8192
+23:26:04: SO_SNDBUF is now 65536
+23:26:05: FlushBufferedVideo: Flushing 2 packets over 40 ms
+23:26:05: Total frames encoded: 61, total frames duplicated: 3 (4.92%)
+23:26:05: Total frames rendered: 73, number of late frames: 6 (8.22%) (it's okay for some frames to be late)
+23:26:05: 
+23:26:05: Profiler time results:
+23:26:05: 
+23:26:05: ==============================================================
+23:26:05: video thread frame - [100%] [avg time: 42.859 ms] [children: 93.3%] [unaccounted: 6.73%]
+23:26:05: | scene->Preprocess - [71.9%] [avg time: 30.836 ms]
+23:26:05: | GPU download and conversion - [21.3%] [avg time: 9.138 ms] [children: 24.8%] [unaccounted: -3.49%]
+23:26:05: | | flush - [0.021%] [avg time: 0.009 ms]
+23:26:05: | | CopyResource - [24.7%] [avg time: 10.575 ms]
+23:26:05: | | conversion to 4:2:0 - [0.112%] [avg time: 0.048 ms]
+23:26:05: Convert444Thread - [100%] [avg time: 0.714 ms] [children: 97.6%] [unaccounted: 2.38%]
+23:26:05: | Convert444toNV12 - [97.6%] [avg time: 0.697 ms]
+23:26:05: encoder thread frame - [100%] [avg time: 2.231 ms] [children: 1.52%] [unaccounted: 98.5%]
+23:26:05: | sending stuff out - [1.52%] [avg time: 0.034 ms]
+23:26:05: ==============================================================
+23:26:05: 
+23:26:05: 
+23:26:05: Profiler CPU results:
+23:26:05: 
+23:26:05: ==============================================================
+23:26:05: video thread frame - [cpu time: avg 31.841 ms, total 2324.42 ms] [avg calls per frame: 1]
+23:26:05: | scene->Preprocess - [cpu time: avg 28.849 ms, total 2106.01 ms] [avg calls per frame: 1]
+23:26:05: | GPU download and conversion - [cpu time: avg 2.35 ms, total 171.602 ms] [avg calls per frame: 1]
+23:26:05: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:26:05: | | CopyResource - [cpu time: avg 2.813 ms, total 171.602 ms] [avg calls per frame: 1]
+23:26:05: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:26:05: Convert444Thread - [cpu time: avg 0.52 ms, total 31.2 ms] [avg calls per frame: 1]
+23:26:05: | Convert444toNV12 - [cpu time: avg 0.52 ms, total 31.2 ms] [avg calls per frame: 1]
+23:26:05: encoder thread frame - [cpu time: avg 1.322 ms, total 78 ms] [avg calls per frame: 1]
+23:26:05: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+23:26:05: ==============================================================
+23:26:05: 
+23:26:05: =====Stream End: 2021-03-27, 23:26:05=================================================
+23:26:05: ~RTMPPublisher: Packet flush completed in 140 ms
+23:26:05: ~RTMPPublisher: Send thread terminated in 0 ms
+23:26:05: RTMPPublisher::SocketLoop: Graceful loop exit
+23:26:05: ~RTMPPublisher: Socket thread terminated in 3 ms
+23:26:05: ~RTMPPublisher: Final socket shutdown completed in 21 ms
+23:26:05: Average send payload: 8622 bytes, average send interval: 22 ms
+23:26:05: Number of times waited to send: 0, Waited for a total of 0 bytes
+23:26:05: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+23:26:05: Number of bytes sent: 163829
+23:26:06: CLR host plugin instance deleted; removing dynamically loaded localization strings
+23:26:06: Terminating 0xbbc

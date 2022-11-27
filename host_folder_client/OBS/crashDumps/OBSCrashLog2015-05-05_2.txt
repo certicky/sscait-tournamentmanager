@@ -1,0 +1,57 @@
+OBS has encountered an unhandled exception and has terminated. If you are able to
+reproduce this crash, please submit this crash report on the forums at
+http://www.obsproject.com/ - include the contents of this crash log and the
+minidump .dmp file (if available) as well as your regular OBS log files and
+a description of what you were doing at the time of the crash.
+
+This crash appears to have occured in the 'c:\windows\system32\kernelbase.dll' module.
+
+**** UNHANDLED EXCEPTION: 80000003
+Fault address: 74FD381B (c:\windows\system32\kernelbase.dll)
+OBS version: Open Broadcaster Software v0.64b
+Windows version: 6.1 (Build 7601) Service Pack 1
+CPU: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+
+Crashing thread stack trace:
+Stack    EIP      Arg0     Arg1     Arg2     Arg3     Address
+002BF220 74FD381B 00000304 00007531 00000000 00000000 kernelbase.dll!0x74fd381b
+002BF230 01108E0B 00000000 00000000 002BF414 00000401 obs.exe!OBS::Stop+0x16b
+002BF278 0113087F 00020154 00000401 00000000 00000000 obs.exe!OBS::OBSProc+0x218f
+002BF3A0 76F4C4E7 0112E6F0 00020154 00000401 00000000 user32.dll!0x76f4c4e7
+002BF3CC 76F4C5E7 00000000 0112E6F0 00020154 00000401 user32.dll!0x76f4c5e7
+002BF444 76F4CC19 0112E6F0 00000000 002BF4D0 76F441EB user32.dll!0x76f4cc19
+002BF4A4 76F4CC70 002BF574 00399158 000500DD 76F4CDE8 user32.dll!0x76f4cc70
+002BF4B4 76F441EB 00020154 012477B0 00000000 0000000A user32.dll!0x76f441eb
+002BF4D8 010FA4F2 010B0000 00000000 00371F59 0000000A obs.exe!WinMain+0x972
+002BF9A8 0114C54A 7FFD6000 002BFA38 76E337F5 7FFD6000 obs.exe!__tmainCRTStartup+0xfd
+002BF9F4 757D3C45 7FFD6000 76C0761E 00000000 00000000 kernel32.dll!0x757d3c45
+002BFA00 76E337F5 0114C443 7FFD6000 00000000 00000000 ntdll.dll!0x76e337f5
+002BFA40 76E337C8 0114C443 7FFD6000 00000000 00000000 ntdll.dll!0x76e337c8
+
+Video thread stack trace:
+Stack    EIP      Arg0     Arg1     Arg2     Arg3     Address
+0A62F488 76E170B4 00000154 FFFFFFFF 00000000 6E5DCA50 ntdll.dll!0x76e170b4
+0A62F4FC 757CBAF3 00000154 FFFFFFFF 00000000 0A62F868 kernel32.dll!0x757cbaf3
+0A62F514 757CBAA2 00000154 FFFFFFFF 00000000 00000000 kernel32.dll!0x757cbaa2
+0A62F528 0110F230 757D3C45 00000000 0A62F8B8 76E337F5 obs.exe!OBS::MainCaptureLoop+0x1ed0
+0A62F870 0110BC95 00000000 0A62F8B8 76E337F5 00000000 obs.exe!OBS::MainCaptureThread+0x5
+0A62F874 757D3C45 00000000 7C89749E 00000000 00000000 kernel32.dll!0x757d3c45
+0A62F880 76E337F5 0110BC90 00000000 00000000 00000000 ntdll.dll!0x76e337f5
+0A62F8C0 76E337C8 0110BC90 00000000 00000000 00000000 ntdll.dll!0x76e337c8
+
+Encode thread stack trace:
+Stack    EIP      Arg0     Arg1     Arg2     Arg3     Address
+0A49F814 76E170B4 00000001 00000000 0A49F8B8 0110CBB5 ntdll.dll!0x76e170b4
+0A49F884 74FA1818 00000001 00000016 0A62F828 002D0800 kernelbase.dll!0x74fa1818
+0A49F894 0110CBB5 00000000 00000000 00000000 00000000 obs.exe!OBS::FlushBufferedVideo+0xc5
+0A49F8C0 0110D0EB 757D3C45 00000000 0A49F9EC 76E337F5 obs.exe!OBS::EncodeLoop+0x49b
+0A49F9A4 0110BC85 00000000 0A49F9EC 76E337F5 00000000 obs.exe!OBS::EncodeThread+0x5
+0A49F9A8 757D3C45 00000000 7CA275CA 00000000 00000000 kernel32.dll!0x757d3c45
+0A49F9B4 76E337F5 0110BC80 00000000 00000000 00000000 ntdll.dll!0x76e337f5
+0A49F9F4 76E337C8 0110BC80 00000000 00000000 00000000 ntdll.dll!0x76e337c8
+
+A minidump was saved to C:\Users\Michal Certicky\Desktop\streaming\obs\crashDumps\OBSCrashDump2015-05-05_2.dmp.
+Please include this file when posting a crash report.
+
+List of loaded modules:
+Base Address      Module

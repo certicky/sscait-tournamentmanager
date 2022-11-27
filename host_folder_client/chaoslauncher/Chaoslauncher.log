@@ -1,0 +1,105 @@
+2/13/2017 22:11:08 2252 Logging started
+2/13/2017 22:11:08 2252 Begin Startup
+2/13/2017 22:11:08 2252 Chaosauncher 0.5.3 on NT 6.1.7601 Service Pack 1 at C:\dev\Starcraft\chaoslauncher\Chaoslauncher.exe
+2/13/2017 22:11:08 2252 Load Settings
+2/13/2017 22:11:08 2252 GamePath: C:\dev\Starcraft\
+2/13/2017 22:11:08 2252 Load Plugins
+2/13/2017 22:11:08 2252 Loading BWL4-Plugin C:\dev\Starcraft\chaoslauncher\APMAlert.bwl
+2/13/2017 22:11:08 2252 Plugin loaded APMAlert (1.16.1)
+2/13/2017 22:11:08 2252 Loading BWL4-Plugin C:\dev\Starcraft\chaoslauncher\BWAPI_ChaosLauncherInjector.bwl
+2/13/2017 22:11:08 2252 Plugin loaded BWAPI Injector (1.16.1)
+2/13/2017 22:11:08 2252 Loading BWL4-Plugin C:\dev\Starcraft\chaoslauncher\Chaosplugin.bwl
+2/13/2017 22:11:08 2252 Plugin loaded Chaosplugin for 1.16.1
+2/13/2017 22:11:08 2252 Loading BWL4-Plugin C:\dev\Starcraft\chaoslauncher\LatencyChanger.bwl
+2/13/2017 22:11:08 2252 Plugin loaded LatencyChanger for 1.16.1
+2/13/2017 22:11:08 2252 Loading BWL4-Plugin C:\dev\Starcraft\chaoslauncher\repfix.bwl
+2/13/2017 22:11:08 2252 Plugin loaded RepFix
+2/13/2017 22:11:08 2252 Loading BWL4-Plugin C:\dev\Starcraft\chaoslauncher\Stormplugin.bwl
+2/13/2017 22:11:08 2252 Plugin loaded Stormplugin for 1.16.1
+2/13/2017 22:11:08 2252 Loading BWL4-Plugin C:\dev\Starcraft\chaoslauncher\wmode.bwl
+2/13/2017 22:11:08 2252 Plugin loaded W-MODE 1.02
+2/13/2017 22:11:08 2252 Load Tools
+2/13/2017 22:11:08 2252 Init GUI
+2/13/2017 22:11:08 2252 Get Starcraftversions
+2/13/2017 22:11:08 2252 Init complete
+2/13/2017 22:11:08 2252 Startbutton
+2/13/2017 22:11:08 2252 Starting Game Starcraft 1.16.1 C:\dev\Starcraft\StarCraft.exe
+2/13/2017 22:11:08 2252 BWAPI Injector (1.16.1) Version  Compatible RunIncompatible
+2/13/2017 22:11:08 2252 RepFix Version 0.0.0.4 Compatible
+2/13/2017 22:11:08 2252 W-MODE 1.02 Version 1.0.2 Compatible
+2/13/2017 22:11:08 2252 Obtained DebugPrivilege
+2/13/2017 22:11:08 2252 CreateProcess
+2/13/2017 22:11:08 2252 Call ScSuspended for all active Plugins
+2/13/2017 22:11:08 2252 ApplyPatchSuspended for BWAPI Injector (1.16.1)
+2/13/2017 22:11:08 2252 ApplyPatchSuspended for RepFix
+2/13/2017 22:11:08 2252 ApplyPatchSuspended for W-MODE 1.02
+2/13/2017 22:11:08 2252 ResumeThread
+2/13/2017 22:11:08 2252 WaitForInputIdle
+2/13/2017 22:11:09 2252 Call ScWindowCreated for all active Plugins
+2/13/2017 22:11:09 2252 ApplyPatch for BWAPI Injector (1.16.1)
+2/13/2017 22:11:09 2252 ApplyPatch for RepFix
+2/13/2017 22:11:09 2252 ApplyPatch for W-MODE 1.02
+2/13/2017 22:11:09 2252 Starting Starcraft completed
+2/20/2017 23:15:55 2252 Startbutton
+2/20/2017 23:15:55 2252 Starting Game Starcraft 1.16.1 C:\dev\Starcraft\StarCraft.exe
+2/20/2017 23:15:55 2252 BWAPI Injector (1.16.1) Version  Compatible RunIncompatible
+2/20/2017 23:15:55 2252 RepFix Version 0.0.0.4 Compatible
+2/20/2017 23:15:55 2252 W-MODE 1.02 Version 1.0.2 Compatible
+2/20/2017 23:15:55 2252 Obtained DebugPrivilege
+2/20/2017 23:15:55 2252 CreateProcess
+2/20/2017 23:15:55 2252 Call ScSuspended for all active Plugins
+2/20/2017 23:15:55 2252 ApplyPatchSuspended for BWAPI Injector (1.16.1)
+2/20/2017 23:15:55 2252 ApplyPatchSuspended for RepFix
+2/20/2017 23:15:55 2252 ApplyPatchSuspended for W-MODE 1.02
+2/20/2017 23:15:55 2252 ResumeThread
+2/20/2017 23:15:55 2252 WaitForInputIdle
+2/20/2017 23:15:55 2252 Call ScWindowCreated for all active Plugins
+2/20/2017 23:15:55 2252 ApplyPatch for BWAPI Injector (1.16.1)
+2/20/2017 23:15:55 2252 ApplyPatch for RepFix
+2/20/2017 23:15:55 2252 ApplyPatch for W-MODE 1.02
+2/20/2017 23:15:55 2252 Starting Starcraft completed
+2/20/2017 23:47:59 2252 Startbutton
+2/20/2017 23:47:59 2252 Starting Game Starcraft 1.16.1 C:\dev\Starcraft\StarCraft.exe
+2/20/2017 23:47:59 2252 BWAPI Injector (1.16.1) Version  Compatible RunIncompatible
+2/20/2017 23:47:59 2252 RepFix Version 0.0.0.4 Compatible
+2/20/2017 23:47:59 2252 W-MODE 1.02 Version 1.0.2 Compatible
+2/20/2017 23:47:59 2252 Obtained DebugPrivilege
+2/20/2017 23:47:59 2252 CreateProcess
+2/20/2017 23:47:59 2252 Call ScSuspended for all active Plugins
+2/20/2017 23:47:59 2252 ApplyPatchSuspended for BWAPI Injector (1.16.1)
+2/20/2017 23:47:59 2252 ApplyPatchSuspended for RepFix
+2/20/2017 23:47:59 2252 ApplyPatchSuspended for W-MODE 1.02
+2/20/2017 23:47:59 2252 ResumeThread
+2/20/2017 23:47:59 2252 WaitForInputIdle
+2/20/2017 23:47:59 2252 Call ScWindowCreated for all active Plugins
+2/20/2017 23:47:59 2252 ApplyPatch for BWAPI Injector (1.16.1)
+2/20/2017 23:47:59 2252 ApplyPatch for RepFix
+2/20/2017 23:47:59 2252 ApplyPatch for W-MODE 1.02
+2/20/2017 23:47:59 2252 Starting Starcraft completed
+2/20/2017 23:49:27 2252 Startbutton
+2/20/2017 23:49:27 2252 Starting Game Starcraft 1.16.1 C:\dev\Starcraft\StarCraft.exe
+2/20/2017 23:49:27 2252 BWAPI Injector (1.16.1) Version  Compatible RunIncompatible
+2/20/2017 23:49:27 2252 RepFix Version 0.0.0.4 Compatible
+2/20/2017 23:49:27 2252 W-MODE 1.02 Version 1.0.2 Compatible
+2/20/2017 23:49:27 2252 Obtained DebugPrivilege
+2/20/2017 23:49:27 2252 CreateProcess
+2/20/2017 23:49:27 2252 Call ScSuspended for all active Plugins
+2/20/2017 23:49:27 2252 ApplyPatchSuspended for BWAPI Injector (1.16.1)
+2/20/2017 23:49:27 2252 ApplyPatchSuspended for RepFix
+2/20/2017 23:49:27 2252 ApplyPatchSuspended for W-MODE 1.02
+2/20/2017 23:49:27 2252 ResumeThread
+2/20/2017 23:49:27 2252 WaitForInputIdle
+2/20/2017 23:49:27 2252 Call ScWindowCreated for all active Plugins
+2/20/2017 23:49:27 2252 ApplyPatch for BWAPI Injector (1.16.1)
+2/20/2017 23:49:27 2252 ApplyPatch for RepFix
+2/20/2017 23:49:27 2252 ApplyPatch for W-MODE 1.02
+2/20/2017 23:49:27 2252 Starting Starcraft completed
+2/21/2017 10:47:04 2252 Finishing
+2/21/2017 10:47:04 2252 Unloading Plugin APMAlert (1.16.1)
+2/21/2017 10:47:04 2252 Unloading Plugin BWAPI Injector (1.16.1)
+2/21/2017 10:47:04 2252 Unloading Plugin Chaosplugin for 1.16.1
+2/21/2017 10:47:04 2252 Unloading Plugin LatencyChanger for 1.16.1
+2/21/2017 10:47:04 2252 Unloading Plugin RepFix
+2/21/2017 10:47:04 2252 Unloading Plugin Stormplugin for 1.16.1
+2/21/2017 10:47:04 2252 Unloading Plugin W-MODE 1.02
+2/21/2017 10:47:04 2252 Logging ended

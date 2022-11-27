@@ -1,0 +1,109 @@
+[0105/171950:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[0105/171955:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[0105/172157:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0105/172157:INFO:CONSOLE(10)] "Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'.", source: https://streamlabs.com/alert-box/v3/805031893454AB289B05 (10)
+[0105/172204:ERROR:gles2_cmd_decoder.cc(3550)] GLES2DecoderImpl::ResizeOffscreenFrameBuffer failed to allocate storage for offscreen target depth buffer.
+[0105/172204:ERROR:gles2_cmd_decoder.cc(2538)] Could not allocate offscreen buffer storage.
+[0105/172204:ERROR:command_buffer_proxy_impl.cc(158)] Failed to initialize command buffer service.
+[0105/172204:ERROR:webgraphicscontext3d_command_buffer_impl.cc(236)] CommandBufferProxy::Initialize failed.
+[0105/172204:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0105/172303:ERROR:gles2_cmd_decoder.cc(3550)] GLES2DecoderImpl::ResizeOffscreenFrameBuffer failed to allocate storage for offscreen target depth buffer.
+[0105/172303:ERROR:gles2_cmd_decoder.cc(2538)] Could not allocate offscreen buffer storage.
+[0105/172303:ERROR:command_buffer_proxy_impl.cc(158)] Failed to initialize command buffer service.
+[0105/172303:ERROR:webgraphicscontext3d_command_buffer_impl.cc(236)] CommandBufferProxy::Initialize failed.
+[0105/172303:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0105/172423:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0105/172424:INFO:CONSOLE(10)] "Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'.", source: https://streamlabs.com/alert-box/v3/805031893454AB289B05 (10)
+[0105/172425:ERROR:gles2_cmd_decoder.cc(3550)] GLES2DecoderImpl::ResizeOffscreenFrameBuffer failed to allocate storage for offscreen target depth buffer.
+[0105/172425:ERROR:gles2_cmd_decoder.cc(2538)] Could not allocate offscreen buffer storage.
+[0105/172425:ERROR:command_buffer_proxy_impl.cc(158)] Failed to initialize command buffer service.
+[0105/172425:ERROR:webgraphicscontext3d_command_buffer_impl.cc(236)] CommandBufferProxy::Initialize failed.
+[0105/172425:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0105/172430:ERROR:gles2_cmd_decoder.cc(3550)] GLES2DecoderImpl::ResizeOffscreenFrameBuffer failed to allocate storage for offscreen target depth buffer.
+[0105/172430:ERROR:gles2_cmd_decoder.cc(2538)] Could not allocate offscreen buffer storage.
+[0105/172430:ERROR:command_buffer_proxy_impl.cc(158)] Failed to initialize command buffer service.
+[0105/172430:ERROR:webgraphicscontext3d_command_buffer_impl.cc(236)] CommandBufferProxy::Initialize failed.
+[0105/172430:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0105/172455:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0105/172455:INFO:CONSOLE(10)] "Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'.", source: https://streamlabs.com/alert-box/v3/805031893454AB289B05 (10)
+[0105/172457:ERROR:gles2_cmd_decoder.cc(3550)] GLES2DecoderImpl::ResizeOffscreenFrameBuffer failed to allocate storage for offscreen target depth buffer.
+[0105/172457:ERROR:gles2_cmd_decoder.cc(2538)] Could not allocate offscreen buffer storage.
+[0105/172457:ERROR:command_buffer_proxy_impl.cc(158)] Failed to initialize command buffer service.
+[0105/172457:ERROR:webgraphicscontext3d_command_buffer_impl.cc(236)] CommandBufferProxy::Initialize failed.
+[0105/172457:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0105/172459:ERROR:gles2_cmd_decoder.cc(3550)] GLES2DecoderImpl::ResizeOffscreenFrameBuffer failed to allocate storage for offscreen target depth buffer.
+[0105/172459:ERROR:gles2_cmd_decoder.cc(2538)] Could not allocate offscreen buffer storage.
+[0105/172459:ERROR:command_buffer_proxy_impl.cc(158)] Failed to initialize command buffer service.
+[0105/172459:ERROR:webgraphicscontext3d_command_buffer_impl.cc(236)] CommandBufferProxy::Initialize failed.
+[0105/172459:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0105/172533:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0105/172534:INFO:CONSOLE(10)] "Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'.", source: https://streamlabs.com/alert-box/v3/805031893454AB289B05 (10)
+[0105/172535:ERROR:gles2_cmd_decoder.cc(3550)] GLES2DecoderImpl::ResizeOffscreenFrameBuffer failed to allocate storage for offscreen target depth buffer.
+[0105/172535:ERROR:gles2_cmd_decoder.cc(2538)] Could not allocate offscreen buffer storage.
+[0105/172535:ERROR:command_buffer_proxy_impl.cc(158)] Failed to initialize command buffer service.
+[0105/172535:ERROR:webgraphicscontext3d_command_buffer_impl.cc(236)] CommandBufferProxy::Initialize failed.
+[0105/172535:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0105/172543:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[0105/172544:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0105/172545:INFO:CONSOLE(10)] "Failed to set referrer policy: The value 'no-referrer' is not one of 'always', 'default', 'never', or 'origin'. Defaulting to 'never'.", source: https://streamlabs.com/alert-box/v3/805031893454AB289B05 (10)
+[0105/172546:ERROR:gles2_cmd_decoder.cc(3550)] GLES2DecoderImpl::ResizeOffscreenFrameBuffer failed to allocate storage for offscreen target depth buffer.
+[0105/172546:ERROR:gles2_cmd_decoder.cc(2538)] Could not allocate offscreen buffer storage.
+[0105/172546:ERROR:command_buffer_proxy_impl.cc(158)] Failed to initialize command buffer service.
+[0105/172546:ERROR:webgraphicscontext3d_command_buffer_impl.cc(236)] CommandBufferProxy::Initialize failed.
+[0105/172546:ERROR:webgraphicscontext3d_command_buffer_impl.cc(256)] Failed to initialize command buffer.
+[0816/100043:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[0816/100045:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/100130:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/100132:INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://streamlabs.com').", source:  (0)
+[0816/100133:INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://streamlabs.com').", source:  (0)
+[0816/100133:INFO:CONSOLE(0)] "Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://streamlabs.com').", source:  (0)
+[0816/100935:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/101805:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/102247:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/102355:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/102857:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/103355:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/103633:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/104341:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/105100:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/110142:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/110146:INFO:CONSOLE(0)] "'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead.", source:  (0)
+[0816/111452:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/112141:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/113518:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/114414:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/115940:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/120534:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/120928:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/121453:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/122059:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/122806:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/123142:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/123600:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/124016:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/124241:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/125743:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[0816/125745:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0816/125832:ERROR:gpu_process_transport_factory.cc(402)] Failed to establish GPU channel.
+[0816/125832:ERROR:gpu_process_transport_factory.cc(426)] Lost UI shared context.
+[1030/142110:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[1030/142112:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[1030/142155:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[1030/142300:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[1030/142326:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[1030/142354:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[1114/123232:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[1114/123234:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[1114/124104:ERROR:gpu_process_transport_factory.cc(426)] Lost UI shared context.
+[1114/124023:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[1114/124024:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[1205/114505:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[1205/114506:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0504/094401:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.
+[0504/094404:ERROR:renderer_main.cc(227)] Running without renderer sandbox
+[0504/094407:INFO:CONSOLE(1)] "Download the Vue Devtools for a better development experience:
+https://github.com/vuejs/vue-devtools", source: https://streamlabs.com/mixed/assets/external/js/external.js?id=42c649783869666efa96 (1)
+[0504/094408:INFO:CONSOLE(1)] "Download the Vue Devtools for a better development experience:
+https://github.com/vuejs/vue-devtools", source: https://streamlabs.com/mixed/assets/external/js/external.js?id=42c649783869666efa96 (1)
+[0504/094409:ERROR:gpu_process_transport_factory.cc(426)] Lost UI shared context.
+[0504/102257:ERROR:gpu_info_collector_win.cc(103)] Can't retrieve a valid WinSAT assessment.

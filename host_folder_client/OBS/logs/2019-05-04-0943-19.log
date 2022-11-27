@@ -1,0 +1,96 @@
+﻿09:43:26: CLR host plugin strings not found, dynamically loading 4 strings
+09:43:26: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+09:43:26: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+09:43:26: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+09:43:26: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+09:43:32: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+09:43:48: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+09:43:52: CLRHost:: Could not find/load browser settings at location C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json
+09:43:53: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json'.
+09:43:53: File name: 'C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json'
+09:43:53:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+09:43:53:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+09:43:53:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+09:43:53:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+09:44:02: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+09:44:02: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+09:44:02: -------------------------------
+09:44:02: CPU Name: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+09:44:02: CPU Speed: 3092MHz
+09:44:02: Physical Memory:  3071MB Total, 2377MB Free
+09:44:02: stepping id: 3, model 60, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+09:44:02: monitor 1: pos={0, 0}, size={1280, 720}
+09:44:02: Windows Version: 6.1 Build 7601 S
+09:44:02: Aero is Disabled
+09:44:02: -------------------------------
+09:44:02: OBS Modules:
+09:44:02: Base Address     Module
+09:44:02: 000A0000         OBS.exe
+09:44:02: 72DE0000         OBSApi.dll
+09:44:02: 725A0000         CLRHostPlugin.dll
+09:44:02: 635A0000         DShowPlugin.dll
+09:44:02: 62580000         GraphicsCapture.dll
+09:44:02: 62550000         NoiseGate.dll
+09:44:02: 62530000         PSVPlugin.dll
+09:44:02: 62510000         scenesw.dll
+09:44:02: ------------------------------------------
+09:44:02: Adapter 1
+09:44:02:   Video Adapter: VMware SVGA 3D
+09:44:02:   Video Adapter Dedicated Video Memory: 872415232
+09:44:02:   Video Adapter Shared System Memory: 734003200
+09:44:02:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+09:44:02: =====Stream Start: 2019-05-04, 09:44:02===============================================
+09:44:02:   Multithreaded optimizations: On
+09:44:02:   Base resolution: 1280x720
+09:44:02:   Output resolution: 1280x720
+09:44:02: ------------------------------------------
+09:44:02: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+09:44:02: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+09:44:02: ------------------------------------------
+09:44:02: Audio Format: 48000 Hz
+09:44:02: ------------------------------------------
+09:44:02: Audio Channels: 2 Ch
+09:44:02: Playback device Default
+09:44:02: ------------------------------------------
+09:44:02: Using desktop audio input: Speakers (High Definition Audio Device)
+09:44:02: Global Audio time adjust: 0
+09:44:02: ------------------------------------------
+09:44:02: Using auxilary audio input: Microphone (High Definition Audio Device)
+09:44:02: Mic time offset: 0
+09:44:02: ------------------------------------------
+09:44:02: Audio Encoding: AAC
+09:44:02:     bitrate: 128
+09:44:03: Using Monitor Capture
+09:44:03: Scene buffering time set to 700
+09:44:03: ------------------------------------------
+09:44:03: Video Encoding: x264
+09:44:03:     fps: 25
+09:44:03:     width: 1280, height: 720
+09:44:03:     preset: superfast
+09:44:03:     profile: high
+09:44:03:     keyint: 50
+09:44:03:     CBR: yes
+09:44:03:     CFR: yes
+09:44:03:     max bitrate: 2500
+09:44:03:     buffer size: 2500
+09:44:03: ------------------------------------------
+09:44:05:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+09:44:05: CLRHost:: Browser 1: Status message: 
+09:44:07: CLRHost:: Browser 1: Download the Vue Devtools for a better development experience:
+09:44:07: https://github.com/vuejs/vue-devtools @https://streamlabs.com/mixed/assets/external/js/external.js?id=42c649783869666efa961
+09:44:08: CLRHost:: Browser 1: Download the Vue Devtools for a better development experience:
+09:44:08: https://github.com/vuejs/vue-devtools @https://streamlabs.com/mixed/assets/external/js/external.js?id=42c649783869666efa961
+09:44:25: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 70
+09:44:26: librtmp error: The connection timed out. Try a different server, or check that the connection is not being blocked by a firewall or other security software (10060).
+09:44:26: Connection to rtmp://sscaitournament.com/live failed: Could not connect to server
+09:44:26: 
+09:44:26: The connection timed out. Try a different server, or check that the connection is not being blocked by a firewall or other security software (10060).
+09:44:26: 
+09:44:26: FlushBufferedVideo: Flushing 4 packets over 120 ms
+09:44:26: Total frames encoded: 553, total frames duplicated: 83 (15.01%)
+09:44:26: Number of frames skipped due to encoder lag: 34 (6.15%)
+09:44:26: Total frames rendered: 498, number of late frames: 31 (6.22%) (it's okay for some frames to be late)
+09:44:26: ~RTMPPublisher: Packet flush completed in 0 ms
+09:44:26: Number of times waited to send: 0, Waited for a total of 0 bytes
+09:44:26: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+09:44:26: Number of bytes sent: 0

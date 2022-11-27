@@ -1,0 +1,160 @@
+﻿11:13:10: CLR host plugin strings not found, dynamically loading 4 strings
+11:13:10: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+11:13:10: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+11:13:10: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+11:13:10: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+11:13:11: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+11:13:19: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+11:13:19: -------------------------------
+11:13:19: CPU Name: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+11:13:19: CPU Speed: 3092MHz
+11:13:19: Physical Memory:  3071MB Total, 2223MB Free
+11:13:19: stepping id: 3, model 60, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+11:13:19: monitor 1: pos={0, 0}, size={1280, 720}
+11:13:19: Windows Version: 6.1 Build 7601 S
+11:13:19: Aero is Disabled
+11:13:19: -------------------------------
+11:13:19: OBS Modules:
+11:13:19: Base Address     Module
+11:13:19: 00880000         OBS.exe
+11:13:19: 726C0000         OBSApi.dll
+11:13:19: 6DD00000         CLRHostPlugin.dll
+11:13:19: 669F0000         DShowPlugin.dll
+11:13:19: 66970000         GraphicsCapture.dll
+11:13:19: 63CD0000         NoiseGate.dll
+11:13:19: 63CB0000         PSVPlugin.dll
+11:13:19: 63C90000         scenesw.dll
+11:13:19: ------------------------------------------
+11:13:19: Adapter 1
+11:13:19:   Video Adapter: VMware SVGA 3D
+11:13:19:   Video Adapter Dedicated Video Memory: 872415232
+11:13:19:   Video Adapter Shared System Memory: 734003200
+11:13:19:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+11:13:20: =====Stream Start: 2019-05-04, 11:13:20===============================================
+11:13:20:   Multithreaded optimizations: On
+11:13:20:   Base resolution: 1280x720
+11:13:20:   Output resolution: 1280x720
+11:13:20: ------------------------------------------
+11:13:20: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+11:13:20: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+11:13:20: ------------------------------------------
+11:13:20: Audio Format: 48000 Hz
+11:13:20: ------------------------------------------
+11:13:20: Audio Channels: 2 Ch
+11:13:20: Playback device Default
+11:13:20: ------------------------------------------
+11:13:20: Using desktop audio input: Speakers (High Definition Audio Device)
+11:13:20: Global Audio time adjust: 0
+11:13:20: ------------------------------------------
+11:13:20: Using auxilary audio input: Microphone (High Definition Audio Device)
+11:13:20: Mic time offset: 0
+11:13:20: ------------------------------------------
+11:13:20: Audio Encoding: AAC
+11:13:20:     bitrate: 128
+11:13:20: Using graphics capture
+11:13:20: Using anti-cheat hooking for game capture
+11:13:20: Scene buffering time set to 700
+11:13:20: ------------------------------------------
+11:13:20: Video Encoding: x264
+11:13:20:     fps: 25
+11:13:20:     width: 1280, height: 720
+11:13:20:     preset: superfast
+11:13:20:     profile: high
+11:13:20:     keyint: 50
+11:13:20:     CBR: yes
+11:13:20:     CFR: yes
+11:13:20:     max bitrate: 2500
+11:13:20:     buffer size: 2500
+11:13:20: ------------------------------------------
+11:13:20: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:13:20:   New Scene
+Warning -- OBS::CreateImageSource: Could not find image source class 'CLRBrowserSource'
+Warning -- Could not create image source 'CLR Browser' in scene 'Monitor'
+11:13:20: Using Monitor Capture
+11:13:21:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+11:13:42: librtmp error: The connection timed out. Try a different server, or check that the connection is not being blocked by a firewall or other security software (10060).
+11:13:42: Connection to rtmp://sscaitournament.com/live failed: Could not connect to server
+11:13:42: 
+11:13:42: The connection timed out. Try a different server, or check that the connection is not being blocked by a firewall or other security software (10060).
+11:13:42: 
+11:13:43: FlushBufferedVideo: Flushing 3 packets over 80 ms
+11:13:43: Total frames encoded: 551, total frames duplicated: 42 (7.62%)
+11:13:43: Total frames rendered: 540, number of late frames: 28 (5.19%) (it's okay for some frames to be late)
+11:13:43: ~RTMPPublisher: Packet flush completed in 0 ms
+11:13:43: Number of times waited to send: 0, Waited for a total of 0 bytes
+11:13:43: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+11:13:43: Number of bytes sent: 0
+11:13:43: 
+11:13:43: Profiler time results:
+11:13:43: 
+11:13:43: ==============================================================
+11:13:43: video thread frame - [100%] [avg time: 21.861 ms] [children: 93.9%] [unaccounted: 6.13%]
+11:13:43: | scene->Preprocess - [64.7%] [avg time: 14.145 ms]
+11:13:43: | GPU download and conversion - [29.2%] [avg time: 6.376 ms] [children: 29.5%] [unaccounted: -0.334%]
+11:13:43: | | flush - [0.0823%] [avg time: 0.018 ms]
+11:13:43: | | CopyResource - [29.2%] [avg time: 6.377 ms]
+11:13:43: | | conversion to 4:2:0 - [0.247%] [avg time: 0.054 ms]
+11:13:43: Convert444Thread - [100%] [avg time: 0.778 ms] [children: 99.1%] [unaccounted: 0.9%]
+11:13:43: | Convert444toNV12 - [99.1%] [avg time: 0.771 ms]
+11:13:43: encoder thread frame - [100%] [avg time: 2.231 ms] [children: 0.179%] [unaccounted: 99.8%]
+11:13:43: | sending stuff out - [0.179%] [avg time: 0.004 ms]
+11:13:43: ==============================================================
+11:13:43: 
+11:13:43: 
+11:13:43: Profiler CPU results:
+11:13:43: 
+11:13:43: ==============================================================
+11:13:43: video thread frame - [cpu time: avg 15.224 ms, total 8221.25 ms] [avg calls per frame: 1]
+11:13:43: | scene->Preprocess - [cpu time: avg 13.144 ms, total 7098.04 ms] [avg calls per frame: 1]
+11:13:43: | GPU download and conversion - [cpu time: avg 1.068 ms, total 577.204 ms] [avg calls per frame: 1]
+11:13:43: | | flush - [cpu time: avg 0.028 ms, total 15.6 ms] [avg calls per frame: 1]
+11:13:43: | | CopyResource - [cpu time: avg 0.975 ms, total 514.804 ms] [avg calls per frame: 1]
+11:13:43: | | conversion to 4:2:0 - [cpu time: avg 0.088 ms, total 46.8 ms] [avg calls per frame: 1]
+11:13:43: Convert444Thread - [cpu time: avg 0.444 ms, total 234.001 ms] [avg calls per frame: 1]
+11:13:43: | Convert444toNV12 - [cpu time: avg 0.444 ms, total 234.001 ms] [avg calls per frame: 1]
+11:13:43: encoder thread frame - [cpu time: avg 0.882 ms, total 483.603 ms] [avg calls per frame: 1]
+11:13:43: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+11:13:43: ==============================================================
+11:13:43: 
+11:13:43: =====Stream End: 2019-05-04, 11:13:43=================================================
+11:17:35: =====Stream Start: 2019-05-04, 11:17:35===============================================
+11:17:35:   Multithreaded optimizations: On
+11:17:35:   Base resolution: 1280x720
+11:17:35:   Output resolution: 1280x720
+11:17:35: ------------------------------------------
+11:17:35: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+11:17:35: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+11:17:36: ------------------------------------------
+11:17:36: Audio Format: 48000 Hz
+11:17:36: ------------------------------------------
+11:17:36: Audio Channels: 2 Ch
+11:17:36: Playback device Default
+11:17:36: ------------------------------------------
+11:17:36: Using desktop audio input: Speakers (High Definition Audio Device)
+11:17:36: Global Audio time adjust: 0
+11:17:36: ------------------------------------------
+11:17:36: Using auxilary audio input: Microphone (High Definition Audio Device)
+11:17:36: Mic time offset: 0
+11:17:36: ------------------------------------------
+11:17:36: Audio Encoding: AAC
+11:17:36:     bitrate: 128
+Warning -- OBS::CreateImageSource: Could not find image source class 'CLRBrowserSource'
+Warning -- Could not create image source 'CLR Browser' in scene 'Monitor'
+11:17:36: Using Monitor Capture
+11:17:36: Scene buffering time set to 700
+11:17:36: ------------------------------------------
+11:17:36: Video Encoding: x264
+11:17:36:     fps: 25
+11:17:36:     width: 1280, height: 720
+11:17:36:     preset: superfast
+11:17:36:     profile: high
+11:17:36:     keyint: 50
+11:17:36:     CBR: yes
+11:17:36:     CFR: yes
+11:17:36:     max bitrate: 2500
+11:17:36:     buffer size: 2500
+11:17:36: ------------------------------------------
+11:17:37:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+11:17:37: Completed handshake with rtmp://147.32.80.73/live in 43 ms.
+11:17:37: SO_SNDBUF was at 8192
+11:17:37: SO_SNDBUF is now 65536

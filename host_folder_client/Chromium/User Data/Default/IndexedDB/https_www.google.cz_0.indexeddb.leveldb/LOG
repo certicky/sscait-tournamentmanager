@@ -1,0 +1,5 @@
+2015/02/12-19:44:22.783 3860 Reusing MANIFEST C:\TM\chromium\User Data\Default\IndexedDB\https_www.google.cz_0.indexeddb.leveldb/MANIFEST-000001
+2015/02/12-19:44:22.783 3860 Recovering log #17
+2015/02/12-19:44:22.783 3860 Level-0 table #19: started
+2015/02/12-19:44:22.785 3860 Level-0 table #19: 260 bytes OK
+2015/02/12-19:44:22.788 3860 Delete type=0 #17

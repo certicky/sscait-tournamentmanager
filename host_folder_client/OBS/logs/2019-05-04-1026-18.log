@@ -1,0 +1,115 @@
+﻿10:26:21: CLR host plugin strings not found, dynamically loading 4 strings
+10:26:21: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+10:26:21: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+10:26:21: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+10:26:21: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+10:26:21: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+10:26:35: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+10:26:35: -------------------------------
+10:26:35: CPU Name: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+10:26:35: CPU Speed: 3092MHz
+10:26:35: Physical Memory:  3071MB Total, 2309MB Free
+10:26:35: stepping id: 3, model 60, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+10:26:35: monitor 1: pos={0, 0}, size={1280, 720}
+10:26:35: Windows Version: 6.1 Build 7601 S
+10:26:35: Aero is Disabled
+10:26:35: -------------------------------
+10:26:35: OBS Modules:
+10:26:35: Base Address     Module
+10:26:35: 00830000         OBS.exe
+10:26:35: 6ED10000         OBSApi.dll
+10:26:35: 725F0000         CLRHostPlugin.dll
+10:26:35: 6C1A0000         DShowPlugin.dll
+10:26:35: 6C170000         GraphicsCapture.dll
+10:26:35: 6C0E0000         NoiseGate.dll
+10:26:35: 6BCE0000         PSVPlugin.dll
+10:26:35: 6B770000         scenesw.dll
+10:26:35: ------------------------------------------
+10:26:35: Adapter 1
+10:26:35:   Video Adapter: VMware SVGA 3D
+10:26:35:   Video Adapter Dedicated Video Memory: 872415232
+10:26:35:   Video Adapter Shared System Memory: 734003200
+10:26:35:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+10:26:35: =====Stream Start: 2019-05-04, 10:26:35===============================================
+10:26:35:   Multithreaded optimizations: On
+10:26:35:   Base resolution: 1280x720
+10:26:35:   Output resolution: 1280x720
+10:26:35: ------------------------------------------
+10:26:35: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+10:26:35: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+10:26:37: ------------------------------------------
+10:26:37: Audio Format: 48000 Hz
+10:26:37: ------------------------------------------
+10:26:37: Audio Channels: 2 Ch
+10:26:37: Playback device Default
+10:26:37: ------------------------------------------
+10:26:37: Using desktop audio input: Speakers (High Definition Audio Device)
+10:26:37: Global Audio time adjust: 0
+10:26:37: ------------------------------------------
+10:26:37: Using auxilary audio input: Microphone (High Definition Audio Device)
+10:26:37: Mic time offset: 0
+10:26:37: ------------------------------------------
+10:26:37: Audio Encoding: AAC
+10:26:37:     bitrate: 128
+Warning -- OBS::CreateImageSource: Could not find image source class 'CLRBrowserSource'
+Warning -- Could not create image source 'CLR Browser' in scene 'Monitor'
+10:26:39: Using Monitor Capture
+10:26:39: Scene buffering time set to 700
+10:26:39: ------------------------------------------
+10:26:39: Video Encoding: x264
+10:26:39:     fps: 25
+10:26:39:     width: 1280, height: 720
+10:26:39:     preset: superfast
+10:26:39:     profile: high
+10:26:39:     keyint: 50
+10:26:39:     CBR: yes
+10:26:39:     CFR: yes
+10:26:39:     max bitrate: 2500
+10:26:39:     buffer size: 2500
+10:26:39: ------------------------------------------
+10:26:40:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+10:27:01: librtmp error: The connection timed out. Try a different server, or check that the connection is not being blocked by a firewall or other security software (10060).
+10:27:01: Connection to rtmp://sscaitournament.com/live failed: Could not connect to server
+10:27:01: 
+10:27:01: The connection timed out. Try a different server, or check that the connection is not being blocked by a firewall or other security software (10060).
+10:27:01: 
+10:27:01: FlushBufferedVideo: Flushing 12 packets over 440 ms
+10:27:02: Total frames encoded: 563, total frames duplicated: 76 (13.50%)
+10:27:02: Total frames rendered: 535, number of late frames: 4 (0.75%) (it's okay for some frames to be late)
+10:27:02: ~RTMPPublisher: Packet flush completed in 0 ms
+10:27:02: Number of times waited to send: 0, Waited for a total of 0 bytes
+10:27:02: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+10:27:02: Number of bytes sent: 0
+10:27:02: 
+10:27:02: Profiler time results:
+10:27:02: 
+10:27:02: ==============================================================
+10:27:02: video thread frame - [100%] [avg time: 18.974 ms] [children: 97%] [unaccounted: 3.05%]
+10:27:02: | scene->Preprocess - [49.9%] [avg time: 9.468 ms]
+10:27:02: | GPU download and conversion - [47.1%] [avg time: 8.928 ms] [children: 48.4%] [unaccounted: -1.32%]
+10:27:02: | | flush - [0.121%] [avg time: 0.023 ms]
+10:27:02: | | CopyResource - [48%] [avg time: 9.108 ms]
+10:27:02: | | conversion to 4:2:0 - [0.253%] [avg time: 0.048 ms]
+10:27:02: Convert444Thread - [100%] [avg time: 0.634 ms] [children: 98.4%] [unaccounted: 1.58%]
+10:27:02: | Convert444toNV12 - [98.4%] [avg time: 0.624 ms]
+10:27:02: encoder thread frame - [100%] [avg time: 1.192 ms] [children: 0.755%] [unaccounted: 99.2%]
+10:27:02: | sending stuff out - [0.755%] [avg time: 0.009 ms]
+10:27:02: ==============================================================
+10:27:02: 
+10:27:02: 
+10:27:02: Profiler CPU results:
+10:27:02: 
+10:27:02: ==============================================================
+10:27:02: video thread frame - [cpu time: avg 8.572 ms, total 4586.43 ms] [avg calls per frame: 1]
+10:27:02: | scene->Preprocess - [cpu time: avg 7.348 ms, total 3931.23 ms] [avg calls per frame: 1]
+10:27:02: | GPU download and conversion - [cpu time: avg 0.787 ms, total 421.2 ms] [avg calls per frame: 1]
+10:27:02: | | flush - [cpu time: avg 0.029 ms, total 15.6 ms] [avg calls per frame: 1]
+10:27:02: | | CopyResource - [cpu time: avg 0.783 ms, total 405.6 ms] [avg calls per frame: 1]
+10:27:02: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+10:27:02: Convert444Thread - [cpu time: avg 0.302 ms, total 156.001 ms] [avg calls per frame: 1]
+10:27:02: | Convert444toNV12 - [cpu time: avg 0.302 ms, total 156.001 ms] [avg calls per frame: 1]
+10:27:02: encoder thread frame - [cpu time: avg 0.339 ms, total 187.201 ms] [avg calls per frame: 1]
+10:27:02: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+10:27:02: ==============================================================
+10:27:02: 
+10:27:02: =====Stream End: 2019-05-04, 10:27:02=================================================

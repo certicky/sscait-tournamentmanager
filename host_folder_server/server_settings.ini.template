@@ -1,0 +1,152 @@
+#################################################################
+# SSCAI-specific SETTINGS
+#################################################################
+
+# Folder with required files that will be zipped and sent to the clients on VMs.
+ServerRequirementsDir   /absolute/path/to/server_requirements/
+
+# Folder holding bots. It has subfolders named after bot IDs (numbers). Under them, there are AI, read, write and source subfolders.
+BotsDir                 /absolute/path/to/Bots/
+
+# Folder where all the replays are stored.
+ReplaysDir              /absolute/path/to/Replays/
+
+# If this is set to true, achievements are disabled and the server doesn't disable inactive bots.
+CompetitivePhase        false
+
+# Server will restart both VMs after specified number of games. If set to 0, it will not restart.
+RestartAfterGames       50
+
+# Command that is called before all the scheduled restarts (after N games).
+PreRestartCommand       "/usr/bin/python /absolute/path/to/preVMRestart.py"
+
+# Comand that should kill the server, start it again and restart both VMs. It should finish fast, so it needs to just schedule this all via Linux "at" command.
+RestartAllCommand       "/bin/sh -c /absolute/path/to/restartall.sh"
+
+# Absolute path to a server log file.
+LogFilePath             /absolute/path/to/log_restarts.log
+
+# Break ties using the in-game kills+razings score.
+BreakTies               true
+
+#################################################################
+# SERVER PORT - Port to listen for clients on
+#################################################################
+ServerPort 4499
+
+#################################################################
+# MySQL database connection
+#################################################################
+DatabaseAddress         127.0.0.1
+DatabasePort            3306
+DatabaseName            sc
+DatabaseUser            sc-database-user
+DatabasePassword        password-for-the-user
+
+#################################################################
+# MAP LIST - List all maps in the tournament
+# Syntax - Map [MapName] [MapFile]
+# Note: MapFile is relative to server/required/StarCraft/
+#################################################################
+#Map maps/sscai/(8)BGH.scm
+Map maps/sscai/(2)Benzene.scx
+Map maps/sscai/(2)Destination.scx
+Map maps/sscai/(2)HeartbreakRidge.scx
+Map maps/sscai/(3)NeoMoonGlaive.scx
+Map maps/sscai/(3)TauCross.scx
+Map maps/sscai/(4)Andromeda.scx
+Map maps/sscai/(4)CircuitBreaker.scx
+Map maps/sscai/(4)EmpireoftheSun.scm
+Map maps/sscai/(4)FightingSpirit.scx
+Map maps/sscai/(4)Icarus.scm
+Map maps/sscai/(4)Jade.scx
+Map maps/sscai/(4)LaMancha1.1.scx
+Map maps/sscai/(4)Python.scx
+Map maps/sscai/(4)Roadrunner.scx
+
+############################################################
+# Emailing
+############################################################
+GmailFromEmail gmail-account@gmail.com
+GmailEmailPassword gmail-password
+AdminEmail certicky@gmail.com
+AllowEmailsToParticipants false
+
+#################################################################
+# Tournament Module Settings Below
+# These settings get applied to the tournament module running
+# on each client machine.
+#################################################################
+
+############################################################
+# BWAPI Local Speed
+# Syntax - TMLocalSpeed [SpeedValue]
+# Calls BWAPI::Broodwar->setLocalSpeed(SpeedValue)
+############################################################
+TMLocalSpeed 21
+
+############################################################
+# BWAPI Frame Skip
+# Syntax - TMFrameSkip [SkipValue]
+# Calls BWAPI::Broodwar->setFrameSkip(SkipValue)
+# Note: This does nothing unless LocalSpeed is 0
+############################################################
+TMFrameSkip 0
+
+############################################################
+# Game Frame Time Limit
+# Syntax - TMGameFrameLimit [FrameLimit]
+# Game stops after BWAPI::Broodwar->getFrameCount() > FrameLimit
+# If GameFrameLimit is 0, no frame limit is used
+############################################################
+TMGameFrameLimit 86400
+
+############################################################
+# No-kill Time Limit (in real-world seconds)
+# Syntax - TMRWSecondsNoKills [MaxSecondsWithoutKill]
+# Game stops if no unit was killed for this number of real-world seconds.
+############################################################
+TMRWSecondsNoKills 300
+
+############################################################
+# Timeout Limits
+# Syntax - TMTimeout TimeInMS [FrameCount]
+# Game loss if FrameCount frames reach TimeinMS time limit
+# Specifying no timeouts makes bots never time out
+############################################################
+TMTimeout 85 320
+TMTimeout 1000 10
+TMTimeout 10000 1
+
+############################################################
+# Tournament Module camera movement settings
+############################################################
+TMCameraMoveTime 250
+TMCameraMoveTimeMin 100
+
+############################################################
+# Tournament Module will set the speed to 0 after N frames
+############################################################
+TMZeroSpeedTime 43200
+
+############################################################
+# Tournament Module will set the speed to 0 for first N frames
+############################################################
+TMInitMaxSpeedTime 1440
+
+############################################################
+# Tournament Module will set the speed to 0 if 
+# <TMNoCombatSpeedUpDelay> frames pass with no combat. 
+# This activates only after <TMNoCombatSpeedUpTime> frames
+# of the game. 
+############################################################
+TMNoCombatSpeedUpTime 9600
+TMNoCombatSpeedUpDelay 480
+
+############################################################
+# Tournament Module needs to know the target resolution of
+# StarCraft (if Resolution Hack is used). Default: 640x480.
+############################################################
+TMScreenWidth 1280
+TMScreenHeight 720
+

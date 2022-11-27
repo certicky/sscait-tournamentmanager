@@ -1,0 +1,2 @@
+This is BWAPI ver. 3.7.5 (default, fully compatible with 3.7.4).
+This folder is, however, named as MD5 sum of BWAPI 3.7.4.

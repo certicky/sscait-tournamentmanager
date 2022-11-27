@@ -1,0 +1,37 @@
+OBS has encountered an unhandled exception and has terminated. If you are able to
+reproduce this crash, please submit this crash report on the forums at
+http://www.obsproject.com/ - include the contents of this crash log and the
+minidump .dmp file (if available) as well as your regular OBS log files and
+a description of what you were doing at the time of the crash.
+
+This crash appears to have occured in the 'c:\users\michal certicky\desktop\streaming\obs\plugins\clrhostplugin\clrbrowsersourceplugin\libcef.dll' module.
+
+**** UNHANDLED EXCEPTION: c0000005
+Fault address: 602C347F (c:\users\michal certicky\desktop\streaming\obs\plugins\clrhostplugin\clrbrowsersourceplugin\libcef.dll)
+OBS version: Open Broadcaster Software v0.64b
+Windows version: 6.1 (Build 7601) Service Pack 1
+CPU: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+
+Crashing thread stack trace:
+Stack    EIP      Arg0     Arg1     Arg2     Arg3     Address
+075AF5C8 602C347F 00000000 61599382 61599240 1519EE6C libcef.dll!0x602c347f
+075AF5F0 602C3B21 1519EE74 05C52E70 05C52E70 075AF808 libcef.dll!0x602c3b21
+075AF6E4 60413104 1519EE60 05C52E70 151C2880 00000000 libcef.dll!0x60413104
+075AF6FC 5FFED7E6 075AF808 05C3F700 00000000 05C3F720 libcef.dll!0x5ffed7e6
+075AF7C0 5FFECDFD 00000000 05C3F700 05C41B40 000201F4 libcef.dll!0x5ffecdfd
+075AF854 60011E92 05C52E70 05C52E70 05C52E70 00000000 libcef.dll!0x60011e92
+075AF89C 6001243D 05C52E70 075AF8D8 60000FC6 00000000 libcef.dll!0x6001243d
+075AF8BC 5FFED460 05C52E70 00000000 00000000 00000001 libcef.dll!0x5ffed460
+075AF8D8 5FFED416 075AF9D0 60001566 05C52E70 05C41B40 libcef.dll!0x5ffed416
+075AF8FC 6000118B 05C52E70 05C41B40 00000514 05C30F38 libcef.dll!0x6000118b
+075AF904 60001566 00000000 00000000 00000001 05C41B40 libcef.dll!0x60001566
+075AF9D8 5FFEBABA 05C30F38 075AFA3C 778237F5 05C30F38 libcef.dll!0x5ffebaba
+075AF9F8 77963C45 05C30F38 70D2B4B4 00000000 00000000 kernel32.dll!0x77963c45
+075AFA04 778237F5 5FFEBA30 05C30F38 00000000 00000000 ntdll.dll!0x778237f5
+075AFA44 778237C8 5FFEBA30 05C30F38 00000000 00000000 ntdll.dll!0x778237c8
+
+A minidump was saved to C:\Users\Michal Certicky\Desktop\streaming\obs\crashDumps\OBSCrashDump2019-05-04_1.dmp.
+Please include this file when posting a crash report.
+
+List of loaded modules:
+Base Address      Module

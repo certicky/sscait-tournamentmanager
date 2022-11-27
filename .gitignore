@@ -1,0 +1,5 @@
+.idea
+out
+sscai-tournamentmanager.iml
+host_folder_server/log_restarts.log
+host_folder_server/cron_scripts/cron_checkIfStreamWorksLastBlack.txt

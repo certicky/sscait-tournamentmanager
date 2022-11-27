@@ -1,0 +1,43 @@
+[2014/05/04 - 17:52:02] Unable to find C:\Starcraft\bwapi-data\BWAPI.dll. - 00000002: The system cannot find the file specified.
+
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Unable to create remote thread.
+Could not get hLibModule.
+Unable to create remote thread.
+Could not get hLibModule.
+Unable to create remote thread.
+Could not get hLibModule.
+Unable to create remote thread.
+Could not get hLibModule.
+Unable to create remote thread.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.
+Could not get hLibModule.

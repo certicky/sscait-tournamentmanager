@@ -1,0 +1,115 @@
+﻿12:59:51: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+12:59:51: -------------------------------
+12:59:51: CPU Name: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+12:59:51: CPU Speed: 3092MHz
+12:59:51: Physical Memory:  3071MB Total, 2403MB Free
+12:59:51: stepping id: 3, model 60, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+12:59:51: monitor 1: pos={0, 0}, size={1280, 720}
+12:59:51: Windows Version: 6.1 Build 7601 S
+12:59:51: Aero is Disabled
+12:59:51: -------------------------------
+12:59:51: OBS Modules:
+12:59:51: Base Address     Module
+12:59:51: 00090000         OBS.exe
+12:59:51: 6F070000         OBSApi.dll
+12:59:51: 6E8B0000         DShowPlugin.dll
+12:59:51: 6E880000         GraphicsCapture.dll
+12:59:51: 6E850000         NoiseGate.dll
+12:59:51: 6E830000         PSVPlugin.dll
+12:59:51: 6E810000         scenesw.dll
+12:59:51: ------------------------------------------
+12:59:51: Adapter 1
+12:59:51:   Video Adapter: VMware SVGA 3D
+12:59:51:   Video Adapter Dedicated Video Memory: 872415232
+12:59:51:   Video Adapter Shared System Memory: 734003200
+12:59:51:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+12:59:51: =====Stream Start: 2016-03-18, 12:59:51===============================================
+12:59:51:   Multithreaded optimizations: On
+12:59:51:   Base resolution: 1280x720
+12:59:51:   Output resolution: 1280x720
+12:59:51: ------------------------------------------
+12:59:51: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+12:59:51: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+12:59:51: ------------------------------------------
+12:59:51: Audio Format: 48000 Hz
+12:59:51: ------------------------------------------
+12:59:51: Audio Channels: 2 Ch
+12:59:51: Playback device Default
+12:59:51: ------------------------------------------
+12:59:51: Using desktop audio input: Speakers (High Definition Audio Device)
+12:59:51: Global Audio time adjust: 0
+12:59:52: ------------------------------------------
+12:59:52: Using auxilary audio input: Microphone (High Definition Audio Device)
+12:59:52: Mic time offset: 0
+12:59:52: ------------------------------------------
+12:59:52: Audio Encoding: AAC
+12:59:52:     bitrate: 128
+12:59:52: Using graphics capture
+12:59:52: Using anti-cheat hooking for game capture
+12:59:52: Scene buffering time set to 700
+12:59:52: ------------------------------------------
+12:59:52: Video Encoding: x264
+12:59:52:     fps: 25
+12:59:52:     width: 1280, height: 720
+12:59:52:     preset: superfast
+12:59:52:     profile: high
+12:59:52:     keyint: 50
+12:59:52:     CBR: yes
+12:59:52:     CFR: yes
+12:59:52:     max bitrate: 2500
+12:59:52:     buffer size: 2500
+12:59:52: ------------------------------------------
+12:59:52: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:59:52:   New Scene
+12:59:52: Using Monitor Capture
+12:59:53:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+12:59:53: Completed handshake with rtmp://sscaitournament.com/live in 73 ms.
+12:59:53: FlushBufferedVideo: Flushing 2 packets over 40 ms
+12:59:53: Total frames encoded: 18, total frames duplicated: 8 (44.44%)
+12:59:53: SO_SNDBUF was at 8192
+12:59:53: SO_SNDBUF is now 65536
+12:59:53: Total frames rendered: 22, number of late frames: 11 (50.00%) (it's okay for some frames to be late)
+12:59:53: ~RTMPPublisher: Packet flush completed in 0 ms
+12:59:53: ~RTMPPublisher: Send thread terminated in 1 ms
+12:59:53: RTMPPublisher::SocketLoop: Graceful loop exit
+12:59:53: ~RTMPPublisher: Socket thread terminated in 1 ms
+12:59:53: ~RTMPPublisher: Final socket shutdown completed in 1 ms
+12:59:53: Number of times waited to send: 0, Waited for a total of 0 bytes
+12:59:53: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+12:59:53: Number of bytes sent: 0
+12:59:53: 
+12:59:53: Profiler time results:
+12:59:53: 
+12:59:53: ==============================================================
+12:59:53: video thread frame - [100%] [avg time: 75.021 ms] [children: 95.3%] [unaccounted: 4.69%]
+12:59:53: | scene->Preprocess - [83.5%] [avg time: 62.653 ms]
+12:59:53: | GPU download and conversion - [11.8%] [avg time: 8.851 ms] [children: 20.5%] [unaccounted: -8.74%]
+12:59:53: | | flush - [0.0373%] [avg time: 0.028 ms]
+12:59:53: | | CopyResource - [20%] [avg time: 14.987 ms]
+12:59:53: | | conversion to 4:2:0 - [0.524%] [avg time: 0.393 ms]
+12:59:53: Convert444Thread - [100%] [avg time: 2.769 ms] [children: 99.8%] [unaccounted: 0.217%]
+12:59:53: | Convert444toNV12 - [99.8%] [avg time: 2.763 ms]
+12:59:53: encoder thread frame - [100%] [avg time: 14.259 ms] [children: 0.0842%] [unaccounted: 99.9%]
+12:59:53: | sending stuff out - [0.0842%] [avg time: 0.012 ms]
+12:59:53: ==============================================================
+12:59:53: 
+12:59:53: 
+12:59:53: Profiler CPU results:
+12:59:53: 
+12:59:53: ==============================================================
+12:59:53: video thread frame - [cpu time: avg 59.564 ms, total 1310.41 ms] [avg calls per frame: 1]
+12:59:53: | scene->Preprocess - [cpu time: avg 53.891 ms, total 1185.61 ms] [avg calls per frame: 1]
+12:59:53: | GPU download and conversion - [cpu time: avg 3.545 ms, total 78.001 ms] [avg calls per frame: 1]
+12:59:53: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+12:59:53: | | CopyResource - [cpu time: avg 6.5 ms, total 78.001 ms] [avg calls per frame: 1]
+12:59:53: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+12:59:53: Convert444Thread - [cpu time: avg 1.56 ms, total 15.6 ms] [avg calls per frame: 1]
+12:59:53: | Convert444toNV12 - [cpu time: avg 1.56 ms, total 15.6 ms] [avg calls per frame: 1]
+12:59:53: encoder thread frame - [cpu time: avg 6.825 ms, total 109.2 ms] [avg calls per frame: 1]
+12:59:53: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+12:59:53: ==============================================================
+12:59:53: 
+12:59:53: =====Stream End: 2016-03-18, 12:59:53=================================================
+12:59:55: Terminating 0xa70
+12:59:55: Memory Leaks Were Detected.
+12:59:55: 

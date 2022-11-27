@@ -1,0 +1,498 @@
+﻿10:00:38: CLR host plugin strings not found, dynamically loading 4 strings
+10:00:38: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+10:00:38: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+10:00:38: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+10:00:38: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+10:00:39: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+10:00:43: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+10:00:43: CLRHost:: Could not find/load browser settings at location C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json
+10:00:43: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json'.
+10:00:43: File name: 'C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json'
+10:00:43:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+10:00:43:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+10:00:43:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+10:00:43:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+10:00:44: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+10:00:44: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+10:00:44: -------------------------------
+10:00:44: CPU Name: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+10:00:44: CPU Speed: 3092MHz
+10:00:44: Physical Memory:  3071MB Total, 2394MB Free
+10:00:44: stepping id: 3, model 60, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+10:00:44: monitor 1: pos={0, 0}, size={1280, 720}
+10:00:44: Windows Version: 6.1 Build 7601 S
+10:00:44: Aero is Disabled
+10:00:44: -------------------------------
+10:00:44: OBS Modules:
+10:00:44: Base Address     Module
+10:00:44: 01290000         OBS.exe
+10:00:44: 6E760000         OBSApi.dll
+10:00:44: 6DF20000         CLRHostPlugin.dll
+10:00:44: 6F790000         DShowPlugin.dll
+10:00:44: 6F8F0000         GraphicsCapture.dll
+10:00:44: 694E0000         NoiseGate.dll
+10:00:44: 6F560000         PSVPlugin.dll
+10:00:44: 65660000         scenesw.dll
+10:00:44: ------------------------------------------
+10:00:44: Adapter 1
+10:00:44:   Video Adapter: VMware SVGA 3D
+10:00:44:   Video Adapter Dedicated Video Memory: 872415232
+10:00:44:   Video Adapter Shared System Memory: 734003200
+10:00:44:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+10:00:44: =====Stream Start: 2017-08-16, 10:00:44===============================================
+10:00:44:   Multithreaded optimizations: On
+10:00:44:   Base resolution: 1280x720
+10:00:44:   Output resolution: 1280x720
+10:00:44: ------------------------------------------
+10:00:44: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+10:00:44: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+10:00:44: ------------------------------------------
+10:00:44: Audio Format: 48000 Hz
+10:00:44: ------------------------------------------
+10:00:44: Audio Channels: 2 Ch
+10:00:44: Playback device Default
+10:00:44: ------------------------------------------
+10:00:44: Using desktop audio input: Speakers (High Definition Audio Device)
+10:00:44: Global Audio time adjust: 0
+10:00:44: ------------------------------------------
+10:00:44: Using auxilary audio input: Microphone (High Definition Audio Device)
+10:00:44: Mic time offset: 0
+10:00:44: ------------------------------------------
+10:00:44: Audio Encoding: AAC
+10:00:44:     bitrate: 128
+10:00:45: Using Monitor Capture
+10:00:45: Scene buffering time set to 700
+10:00:45: ------------------------------------------
+10:00:45: Video Encoding: x264
+10:00:45:     fps: 25
+10:00:45:     width: 1280, height: 720
+10:00:45:     preset: superfast
+10:00:45:     profile: high
+10:00:45:     keyint: 50
+10:00:45:     CBR: yes
+10:00:45:     CFR: yes
+10:00:45:     max bitrate: 2500
+10:00:45:     buffer size: 2500
+10:00:45: ------------------------------------------
+10:00:46: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 32852
+10:00:47:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+10:00:47: Completed handshake with rtmp://sscaitournament.com/live in 34 ms.
+10:00:48: CLRHost:: Browser 1: Status message: 
+10:01:05: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 70
+10:01:18: Connection to rtmp://sscaitournament.com/live failed: Could not access the specified channel or stream key.  This could be because the key/channel is invalid, or because the server still thinks you are logged in.
+10:01:18: 
+10:01:18: 
+10:01:18: FlushBufferedVideo: Flushing 2 packets over 40 ms
+10:01:18: Total frames encoded: 793, total frames duplicated: 168 (21.19%)
+10:01:18: Number of frames skipped due to encoder lag: 99 (12.48%)
+10:01:18: Total frames rendered: 677, number of late frames: 28 (4.14%) (it's okay for some frames to be late)
+10:01:18: ~RTMPPublisher: Packet flush completed in 0 ms
+10:01:18: Number of times waited to send: 0, Waited for a total of 0 bytes
+10:01:18: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+10:01:18: Number of bytes sent: 0
+10:01:18: 
+10:01:18: Profiler time results:
+10:01:18: 
+10:01:18: ==============================================================
+10:01:18: video thread frame - [100%] [avg time: 20.96 ms] [children: 91.9%] [unaccounted: 8.12%]
+10:01:18: | scene->Preprocess - [58%] [avg time: 12.167 ms]
+10:01:18: | GPU download and conversion - [33.8%] [avg time: 7.092 ms] [children: 33.9%] [unaccounted: -0.0573%]
+10:01:18: | | flush - [0.0716%] [avg time: 0.015 ms]
+10:01:18: | | CopyResource - [33.7%] [avg time: 7.059 ms]
+10:01:18: | | conversion to 4:2:0 - [0.143%] [avg time: 0.03 ms]
+10:01:18: Convert444Thread - [100%] [avg time: 0.685 ms] [children: 98.5%] [unaccounted: 1.46%]
+10:01:18: | Convert444toNV12 - [98.5%] [avg time: 0.675 ms]
+10:01:18: encoder thread frame - [100%] [avg time: 8.158 ms] [children: 0.159%] [unaccounted: 99.8%]
+10:01:18: | sending stuff out - [0.159%] [avg time: 0.013 ms]
+10:01:18: ==============================================================
+10:01:18: 
+10:01:18: 
+10:01:18: Profiler CPU results:
+10:01:18: 
+10:01:18: ==============================================================
+10:01:18: video thread frame - [cpu time: avg 12.097 ms, total 8190.05 ms] [avg calls per frame: 1]
+10:01:18: | scene->Preprocess - [cpu time: avg 9.839 ms, total 6661.24 ms] [avg calls per frame: 1]
+10:01:18: | GPU download and conversion - [cpu time: avg 0.967 ms, total 655.203 ms] [avg calls per frame: 1]
+10:01:18: | | flush - [cpu time: avg 0.046 ms, total 31.201 ms] [avg calls per frame: 1]
+10:01:18: | | CopyResource - [cpu time: avg 0.883 ms, total 592.802 ms] [avg calls per frame: 1]
+10:01:18: | | conversion to 4:2:0 - [cpu time: avg 0.023 ms, total 15.6 ms] [avg calls per frame: 1]
+10:01:18: Convert444Thread - [cpu time: avg 0.279 ms, total 187.201 ms] [avg calls per frame: 1]
+10:01:18: | Convert444toNV12 - [cpu time: avg 0.279 ms, total 187.201 ms] [avg calls per frame: 1]
+10:01:18: encoder thread frame - [cpu time: avg 0.867 ms, total 686.404 ms] [avg calls per frame: 1]
+10:01:18: | sending stuff out - [cpu time: avg 0.019 ms, total 15.6 ms] [avg calls per frame: 1]
+10:01:18: ==============================================================
+10:01:18: 
+10:01:18: =====Stream End: 2017-08-16, 10:01:18=================================================
+10:01:29: =====Stream Start: 2017-08-16, 10:01:29===============================================
+10:01:29:   Multithreaded optimizations: On
+10:01:29:   Base resolution: 1280x720
+10:01:29:   Output resolution: 1280x720
+10:01:29: ------------------------------------------
+10:01:29: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+10:01:29: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+10:01:29: ------------------------------------------
+10:01:29: Audio Format: 48000 Hz
+10:01:29: ------------------------------------------
+10:01:29: Audio Channels: 2 Ch
+10:01:29: Playback device Default
+10:01:29: ------------------------------------------
+10:01:29: Using desktop audio input: Speakers (High Definition Audio Device)
+10:01:29: Global Audio time adjust: 0
+10:01:29: ------------------------------------------
+10:01:29: Using auxilary audio input: Microphone (High Definition Audio Device)
+10:01:29: Mic time offset: 0
+10:01:29: ------------------------------------------
+10:01:29: Audio Encoding: AAC
+10:01:29:     bitrate: 128
+10:01:30: Using Monitor Capture
+10:01:30: Scene buffering time set to 700
+10:01:30: ------------------------------------------
+10:01:30: Video Encoding: x264
+10:01:30:     fps: 25
+10:01:30:     width: 1280, height: 720
+10:01:30:     preset: superfast
+10:01:30:     profile: high
+10:01:30:     keyint: 50
+10:01:30:     CBR: yes
+10:01:30:     CFR: yes
+10:01:30:     max bitrate: 2500
+10:01:30:     buffer size: 2500
+10:01:30: ------------------------------------------
+10:01:30: CLRHost:: Browser 2: Status message: 
+10:01:31:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+10:01:31: Completed handshake with rtmp://sscaitournament.com/live in 13 ms.
+10:01:31: SO_SNDBUF was at 8192
+10:01:31: SO_SNDBUF is now 65536
+10:01:32: CLRHost:: Browser 2: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://streamlabs.com'). @0
+10:01:33: CLRHost:: Browser 2: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://streamlabs.com'). @0
+10:01:33: CLRHost:: Browser 2: Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('https://streamlabs.com'). @0
+10:01:34: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 70
+10:01:56: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:01:56:   New Scene
+10:01:56: Using graphics capture
+10:01:56: Using anti-cheat hooking for game capture
+10:01:59: Trying to hook process: StarCraft.exe
+10:01:59: using memory capture
+10:09:34: Capture window 0x00060230 invalid or changing, terminating capture
+10:09:35: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:09:35:   New Scene
+10:09:35: Using Monitor Capture
+10:09:35: CLRHost:: Browser 3: Status message: 
+10:10:06: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 80
+10:10:27: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:10:27:   New Scene
+10:10:27: Using graphics capture
+10:10:27: Using anti-cheat hooking for game capture
+10:10:28: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 90
+10:10:30: Trying to hook process: StarCraft.exe
+10:10:30: using memory capture
+10:18:05: Capture hotkey triggered for new window, terminating capture
+10:18:05: Trying to hook process: chrome.exe
+10:18:05: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:18:05:   New Scene
+10:18:05: Using Monitor Capture
+10:18:06: CLRHost:: Browser 4: Status message: 
+10:19:05: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 100
+10:19:39: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 110
+10:19:39: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 130
+10:19:40: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 140
+10:19:44: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:19:44:   New Scene
+10:19:44: Using graphics capture
+10:19:44: Using anti-cheat hooking for game capture
+10:19:48: Trying to hook process: StarCraft.exe
+10:19:48: using memory capture
+10:22:47: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:22:47:   New Scene
+10:22:47: Using Monitor Capture
+10:22:48: CLRHost:: Browser 5: Status message: 
+10:22:50: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:22:50:   New Scene
+10:22:50: Using graphics capture
+10:22:50: Using anti-cheat hooking for game capture
+10:22:53: Trying to hook process: StarCraft.exe
+10:22:53: using memory capture
+10:23:55: Capture window 0x00370098 invalid or changing, terminating capture
+10:23:55: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:23:55:   New Scene
+10:23:55: Using Monitor Capture
+10:23:56: CLRHost:: Browser 6: Status message: 
+10:24:16: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 140
+10:24:22: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 150
+10:24:46: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:24:46:   New Scene
+10:24:46: Using graphics capture
+10:24:46: Using anti-cheat hooking for game capture
+10:24:48: Trying to hook process: StarCraft.exe
+10:24:49: using memory capture
+10:28:56: Capture window 0x001D023A invalid or changing, terminating capture
+10:28:57: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:28:57:   New Scene
+10:28:57: Using Monitor Capture
+10:28:58: CLRHost:: Browser 7: Status message: 
+10:29:39: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:29:39:   New Scene
+10:29:39: Using graphics capture
+10:29:39: Using anti-cheat hooking for game capture
+10:29:42: Trying to hook process: StarCraft.exe
+10:29:42: using memory capture
+10:33:55: Capture window 0x010F00A8 invalid or changing, terminating capture
+10:33:55: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:33:55:   New Scene
+10:33:55: Using Monitor Capture
+10:34:38: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:34:38:   New Scene
+10:34:38: Using graphics capture
+10:34:39: Using anti-cheat hooking for game capture
+10:34:39: PERFORMANCE WARNING: Scene change took 729 ms, maybe some sources should be global sources?
+10:34:40: Trying to hook process: StarCraft.exe
+10:34:41: using memory capture
+10:35:09: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 160
+10:36:32: Capture window 0x0081023C invalid or changing, terminating capture
+10:36:33: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:36:33:   New Scene
+10:36:33: Using Monitor Capture
+10:36:33: CLRHost:: Browser 9: Status message: 
+10:37:15: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:37:15:   New Scene
+10:37:15: Using graphics capture
+10:37:15: Using anti-cheat hooking for game capture
+10:37:18: Trying to hook process: StarCraft.exe
+10:37:18: using memory capture
+10:37:47: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 180
+10:43:40: Capture window 0x007C024C invalid or changing, terminating capture
+10:43:41: Trying to hook process: chrome.exe
+10:43:41: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:43:41:   New Scene
+10:43:41: Using Monitor Capture
+10:43:41: CLRHost:: Browser 10: Status message: 
+10:44:28: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:44:28:   New Scene
+10:44:28: Using graphics capture
+10:44:28: Using anti-cheat hooking for game capture
+10:44:31: Trying to hook process: StarCraft.exe
+10:44:31: using memory capture
+10:45:03: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 180
+10:45:04: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 200
+10:50:59: Capture window 0x0010024A invalid or changing, terminating capture
+10:51:00: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:51:00:   New Scene
+10:51:00: Using Monitor Capture
+10:51:01: CLRHost:: Browser 11: Status message: 
+10:51:40: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:51:40:   New Scene
+10:51:40: Using graphics capture
+10:51:40: Using anti-cheat hooking for game capture
+10:51:43: Trying to hook process: StarCraft.exe
+10:51:44: using memory capture
+11:01:41: Capture window 0x00EB0242 invalid or changing, terminating capture
+11:01:42: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:01:42:   New Scene
+11:01:42: Using Monitor Capture
+11:01:43: CLRHost:: Browser 12: Status message: 
+11:01:46: CLRHost:: Browser 12: 'window.webkitStorageInfo' is deprecated. Please use 'navigator.webkitTemporaryStorage' or 'navigator.webkitPersistentStorage' instead. @0
+11:01:53: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 200
+11:02:21: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:02:21:   New Scene
+11:02:21: Using graphics capture
+11:02:21: Using anti-cheat hooking for game capture
+11:02:24: Trying to hook process: StarCraft.exe
+11:02:24: using memory capture
+11:14:52: Capture window 0x00060250 invalid or changing, terminating capture
+11:14:52: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:14:52:   New Scene
+11:14:52: Using Monitor Capture
+11:15:39: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:15:39:   New Scene
+11:15:39: Using graphics capture
+11:15:39: Using anti-cheat hooking for game capture
+11:15:42: Trying to hook process: StarCraft.exe
+11:15:42: using memory capture
+11:21:41: Capture window 0x03BA00CE invalid or changing, terminating capture
+11:21:41: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:21:41:   New Scene
+11:21:41: Using Monitor Capture
+11:21:42: CLRHost:: Browser 14: Status message: 
+11:22:39: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 210
+11:23:07: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:23:07:   New Scene
+11:23:07: Using graphics capture
+11:23:07: Using anti-cheat hooking for game capture
+11:23:10: Trying to hook process: StarCraft.exe
+11:23:11: using memory capture
+11:35:18: Capture window 0x01540252 invalid or changing, terminating capture
+11:35:18: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:35:18:   New Scene
+11:35:18: Using Monitor Capture
+11:35:19: CLRHost:: Browser 15: Status message: 
+11:36:05: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:36:05:   New Scene
+11:36:05: Using graphics capture
+11:36:05: Using anti-cheat hooking for game capture
+11:36:07: Trying to hook process: StarCraft.exe
+11:36:07: using memory capture
+11:44:13: Capture window 0x02AD0248 invalid or changing, terminating capture
+11:44:14: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:44:14:   New Scene
+11:44:14: Using Monitor Capture
+11:44:14: CLRHost:: Browser 16: Status message: 
+11:44:58: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:44:58:   New Scene
+11:44:58: Using graphics capture
+11:44:58: Using anti-cheat hooking for game capture
+11:45:01: Trying to hook process: StarCraft.exe
+11:45:01: using memory capture
+11:59:39: Capture window 0x01C10256 invalid or changing, terminating capture
+11:59:40: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:59:40:   New Scene
+11:59:40: Using Monitor Capture
+11:59:40: CLRHost:: Browser 17: Status message: 
+12:01:13: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:01:13:   New Scene
+12:01:13: Using graphics capture
+12:01:13: Using anti-cheat hooking for game capture
+12:01:16: Trying to hook process: StarCraft.exe
+12:01:16: using memory capture
+12:01:43: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 220
+12:05:33: Capture window 0x02F90258 invalid or changing, terminating capture
+12:05:33: Trying to hook process: chrome.exe
+12:05:34: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:05:34:   New Scene
+12:05:34: Using Monitor Capture
+12:05:34: CLRHost:: Browser 18: Status message: 
+12:06:14: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:06:14:   New Scene
+12:06:14: Using graphics capture
+12:06:14: Using anti-cheat hooking for game capture
+12:06:17: Trying to hook process: StarCraft.exe
+12:06:17: using memory capture
+12:09:28: Capture window 0x019F0246 invalid or changing, terminating capture
+12:09:28: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:09:28:   New Scene
+12:09:28: Using Monitor Capture
+12:09:28: CLRHost:: Browser 19: Status message: 
+12:10:08: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:10:08:   New Scene
+12:10:08: Using graphics capture
+12:10:08: Using anti-cheat hooking for game capture
+12:10:12: Trying to hook process: StarCraft.exe
+12:10:12: using memory capture
+12:14:52: Capture window 0x01D00256 invalid or changing, terminating capture
+12:14:53: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:14:53:   New Scene
+12:14:53: Using Monitor Capture
+12:14:53: CLRHost:: Browser 20: Status message: 
+12:15:31: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:15:31:   New Scene
+12:15:31: Using graphics capture
+12:15:31: Using anti-cheat hooking for game capture
+12:15:33: Trying to hook process: StarCraft.exe
+12:15:34: using memory capture
+12:20:59: Capture window 0x01D70256 invalid or changing, terminating capture
+12:20:59: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:20:59:   New Scene
+12:20:59: Using Monitor Capture
+12:21:43: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:21:43:   New Scene
+12:21:43: Using graphics capture
+12:21:43: Using anti-cheat hooking for game capture
+12:21:46: Trying to hook process: StarCraft.exe
+12:21:47: using memory capture
+12:28:05: Capture window 0x01260262 invalid or changing, terminating capture
+12:28:06: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:28:06:   New Scene
+12:28:06: Using Monitor Capture
+12:28:06: CLRHost:: Browser 22: Status message: 
+12:28:45: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:28:45:   New Scene
+12:28:45: Using graphics capture
+12:28:45: Using anti-cheat hooking for game capture
+12:28:48: Trying to hook process: StarCraft.exe
+12:28:48: using memory capture
+12:31:42: Capture window 0x01320260 invalid or changing, terminating capture
+12:31:42: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:31:42:   New Scene
+12:31:42: Using Monitor Capture
+12:31:42: CLRHost:: Browser 23: Status message: 
+12:32:24: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:32:24:   New Scene
+12:32:24: Using graphics capture
+12:32:24: Using anti-cheat hooking for game capture
+12:32:27: Trying to hook process: StarCraft.exe
+12:32:27: using memory capture
+12:36:00: Capture window 0x01750232 invalid or changing, terminating capture
+12:36:00: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:36:00:   New Scene
+12:36:00: Using Monitor Capture
+12:36:00: CLRHost:: Browser 24: Status message: 
+12:36:38: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 230
+12:37:14: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:37:14:   New Scene
+12:37:14: Using graphics capture
+12:37:14: Using anti-cheat hooking for game capture
+12:37:17: Trying to hook process: StarCraft.exe
+12:37:17: using memory capture
+12:40:16: Capture window 0x015C0260 invalid or changing, terminating capture
+12:40:16: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:40:16:   New Scene
+12:40:16: Using Monitor Capture
+12:41:03: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:41:03:   New Scene
+12:41:03: Using graphics capture
+12:41:03: Using anti-cheat hooking for game capture
+12:41:06: Trying to hook process: StarCraft.exe
+12:41:06: using memory capture
+12:42:40: Capture window 0x000D026A invalid or changing, terminating capture
+12:42:41: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:42:41:   New Scene
+12:42:41: Using Monitor Capture
+12:42:41: CLRHost:: Browser 26: Status message: 
+12:43:55: FlushBufferedVideo: Flushing 16 packets over 600 ms
+12:43:56: Total frames encoded: 243031, total frames duplicated: 10398 (4.28%)
+12:43:56: Number of frames skipped due to encoder lag: 2257 (0.93%)
+12:43:56: Total frames rendered: 239335, number of late frames: 1601 (0.67%) (it's okay for some frames to be late)
+12:43:56: 
+12:43:56: Profiler time results:
+12:43:56: 
+12:43:56: ==============================================================
+12:43:56: video thread frame - [100%] [avg time: 9.54 ms] [children: 85.6%] [unaccounted: 14.4%]
+12:43:56: | scene->Preprocess - [13.4%] [avg time: 1.274 ms]
+12:43:56: | GPU download and conversion - [72.2%] [avg time: 6.889 ms] [children: 71.8%] [unaccounted: 0.44%]
+12:43:56: | | flush - [0.231%] [avg time: 0.022 ms]
+12:43:56: | | CopyResource - [71.4%] [avg time: 6.809 ms]
+12:43:56: | | conversion to 4:2:0 - [0.168%] [avg time: 0.016 ms]
+12:43:56: Convert444Thread - [100%] [avg time: 0.707 ms] [children: 98.6%] [unaccounted: 1.41%]
+12:43:56: | Convert444toNV12 - [98.6%] [avg time: 0.697 ms]
+12:43:56: encoder thread frame - [100%] [avg time: 2.674 ms] [children: 4.04%] [unaccounted: 96%]
+12:43:56: | sending stuff out - [4.04%] [avg time: 0.108 ms]
+12:43:56: ==============================================================
+12:43:56: 
+12:43:56: 
+12:43:56: Profiler CPU results:
+12:43:56: 
+12:43:56: ==============================================================
+12:43:56: video thread frame - [cpu time: avg 2.668 ms, total 638762 ms] [avg calls per frame: 1]
+12:43:56: | scene->Preprocess - [cpu time: avg 1.037 ms, total 248338 ms] [avg calls per frame: 1]
+12:43:56: | GPU download and conversion - [cpu time: avg 0.675 ms, total 161586 ms] [avg calls per frame: 1]
+12:43:56: | | flush - [cpu time: avg 0.045 ms, total 10795.3 ms] [avg calls per frame: 1]
+12:43:56: | | CopyResource - [cpu time: avg 0.582 ms, total 139434 ms] [avg calls per frame: 1]
+12:43:56: | | conversion to 4:2:0 - [cpu time: avg 0.018 ms, total 4446.04 ms] [avg calls per frame: 1]
+12:43:56: Convert444Thread - [cpu time: avg 0.569 ms, total 136204 ms] [avg calls per frame: 1]
+12:43:56: | Convert444toNV12 - [cpu time: avg 0.564 ms, total 135019 ms] [avg calls per frame: 1]
+12:43:56: encoder thread frame - [cpu time: avg 0.744 ms, total 180821 ms] [avg calls per frame: 1]
+12:43:56: | sending stuff out - [cpu time: avg 0.064 ms, total 15553.3 ms] [avg calls per frame: 1]
+12:43:56: ==============================================================
+12:43:56: 
+12:43:56: =====Stream End: 2017-08-16, 12:43:56=================================================
+12:43:56: ~RTMPPublisher: Packet flush completed in 130 ms
+12:43:56: ~RTMPPublisher: Send thread terminated in 0 ms
+12:43:56: RTMPPublisher::SocketLoop: Graceful loop exit
+12:43:56: ~RTMPPublisher: Socket thread terminated in 1 ms
+12:43:56: ~RTMPPublisher: Final socket shutdown completed in 46 ms
+12:43:56: Average send payload: 9697 bytes, average send interval: 29 ms
+12:43:56: Number of times waited to send: 0, Waited for a total of 0 bytes
+12:43:56: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+12:43:56: Number of bytes sent: 3200935812
+12:44:00: CLR host plugin instance deleted; removing dynamically loaded localization strings
+12:44:00: Terminating 0xd20
+12:44:00: Terminating 0x458

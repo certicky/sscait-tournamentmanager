@@ -1,0 +1,122 @@
+﻿12:08:47: CLR host plugin strings not found, dynamically loading 4 strings
+12:08:47: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+12:08:47: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+12:08:47: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+12:08:47: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+12:08:47: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+12:08:55: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+12:08:55: -------------------------------
+12:08:55: CPU Name: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+12:08:55: CPU Speed: 3000MHz
+12:08:55: Physical Memory:  3071MB Total, 2463MB Free
+12:08:55: stepping id: 9, model 158, family 6, type 0, extmodel 4, extfamily 0, HTT 1, logical cores 2, total cores 2
+12:08:55: monitor 1: pos={0, 0}, size={1280, 720}
+12:08:55: Windows Version: 6.1 Build 7601 S
+12:08:55: Aero is Disabled
+12:08:55: -------------------------------
+12:08:55: OBS Modules:
+12:08:55: Base Address     Module
+12:08:55: 011B0000         OBS.exe
+12:08:55: 6F970000         OBSApi.dll
+12:08:55: 72760000         CLRHostPlugin.dll
+12:08:55: 6A280000         DShowPlugin.dll
+12:08:55: 6D810000         GraphicsCapture.dll
+12:08:55: 6A250000         NoiseGate.dll
+12:08:55: 6DD80000         PSVPlugin.dll
+12:08:55: 6A230000         scenesw.dll
+12:08:55: ------------------------------------------
+12:08:55: Adapter 1
+12:08:55:   Video Adapter: VMware SVGA 3D
+12:08:55:   Video Adapter Dedicated Video Memory: 872415232
+12:08:55:   Video Adapter Shared System Memory: 734003200
+12:08:55:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+12:08:55: =====Stream Start: 2021-03-28, 12:08:55===============================================
+12:08:55:   Multithreaded optimizations: On
+12:08:55:   Base resolution: 1280x720
+12:08:55:   Output resolution: 1280x720
+12:08:55: ------------------------------------------
+12:08:55: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+12:08:55: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+12:08:55: ------------------------------------------
+12:08:55: Audio Format: 48000 Hz
+12:08:55: ------------------------------------------
+12:08:55: Audio Channels: 2 Ch
+12:08:55: Playback device Default
+12:08:55: ------------------------------------------
+12:08:55: Using desktop audio input: Speakers (High Definition Audio Device)
+12:08:55: Global Audio time adjust: 0
+12:08:55: ------------------------------------------
+12:08:55: Using auxilary audio input: Microphone (High Definition Audio Device)
+12:08:55: Mic time offset: 0
+12:08:55: ------------------------------------------
+12:08:55: Audio Encoding: AAC
+12:08:55:     bitrate: 128
+12:08:55: Using graphics capture
+12:08:55: Using anti-cheat hooking for game capture
+12:08:55: Scene buffering time set to 700
+12:08:55: ------------------------------------------
+12:08:55: Video Encoding: x264
+12:08:55:     fps: 25
+12:08:55:     width: 1280, height: 720
+12:08:55:     preset: superfast
+12:08:55:     profile: high
+12:08:55:     keyint: 50
+12:08:55:     CBR: yes
+12:08:55:     CFR: yes
+12:08:55:     max bitrate: 2500
+12:08:55:     buffer size: 2500
+12:08:55: ------------------------------------------
+12:08:55: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:08:55:   New Scene
+Warning -- OBS::CreateImageSource: Could not find image source class 'CLRBrowserSource'
+Warning -- Could not create image source 'CLR Browser' in scene 'Monitor'
+12:08:55: Using Monitor Capture
+12:08:56:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+12:08:57: Completed handshake with rtmp://eu-central.restream.io/live in 90 ms.
+12:08:57: FlushBufferedVideo: Flushing 2 packets over 40 ms
+12:08:57: Total frames encoded: 25, total frames duplicated: 2 (8.00%)
+12:08:57: Total frames rendered: 37, number of late frames: 5 (13.51%) (it's okay for some frames to be late)
+12:08:57: librtmp error: RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10053 (An established connection was aborted by the software in your host machine.)
+12:08:57: Connection to rtmp://eu-central.restream.io/live failed: Could not access the specified channel or stream key.  This could be because the key/channel is invalid, or because the server still thinks you are logged in.
+12:08:57: 
+12:08:57: RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10053 (An established connection was aborted by the software in your host machine.)
+12:08:57: 
+12:08:57: ~RTMPPublisher: Packet flush completed in 0 ms
+12:08:57: Number of times waited to send: 0, Waited for a total of 0 bytes
+12:08:57: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+12:08:57: Number of bytes sent: 0
+12:08:57: 
+12:08:57: Profiler time results:
+12:08:57: 
+12:08:57: ==============================================================
+12:08:57: video thread frame - [100%] [avg time: 49.505 ms] [children: 91.3%] [unaccounted: 8.73%]
+12:08:57: | scene->Preprocess - [68.9%] [avg time: 34.104 ms]
+12:08:57: | GPU download and conversion - [22.4%] [avg time: 11.08 ms] [children: 32.1%] [unaccounted: -9.75%]
+12:08:57: | | flush - [0.0242%] [avg time: 0.012 ms]
+12:08:57: | | CopyResource - [31.4%] [avg time: 15.553 ms]
+12:08:57: | | conversion to 4:2:0 - [0.695%] [avg time: 0.344 ms]
+12:08:57: Convert444Thread - [100%] [avg time: 1.004 ms] [children: 99.6%] [unaccounted: 0.398%]
+12:08:57: | Convert444toNV12 - [99.6%] [avg time: 1 ms]
+12:08:57: encoder thread frame - [100%] [avg time: 5.024 ms] [children: 0.139%] [unaccounted: 99.9%]
+12:08:57: | sending stuff out - [0.139%] [avg time: 0.007 ms]
+12:08:57: ==============================================================
+12:08:57: 
+12:08:57: 
+12:08:57: Profiler CPU results:
+12:08:57: 
+12:08:57: ==============================================================
+12:08:57: video thread frame - [cpu time: avg 32.465 ms, total 1201.21 ms] [avg calls per frame: 1]
+12:08:57: | scene->Preprocess - [cpu time: avg 28.67 ms, total 1060.81 ms] [avg calls per frame: 1]
+12:08:57: | GPU download and conversion - [cpu time: avg 2.529 ms, total 93.601 ms] [avg calls per frame: 1]
+12:08:57: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+12:08:57: | | CopyResource - [cpu time: avg 3.744 ms, total 93.601 ms] [avg calls per frame: 1]
+12:08:57: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+12:08:57: Convert444Thread - [cpu time: avg 1.3 ms, total 31.2 ms] [avg calls per frame: 1]
+12:08:57: | Convert444toNV12 - [cpu time: avg 1.3 ms, total 31.2 ms] [avg calls per frame: 1]
+12:08:57: encoder thread frame - [cpu time: avg 4.747 ms, total 109.2 ms] [avg calls per frame: 1]
+12:08:57: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+12:08:57: ==============================================================
+12:08:57: 
+12:08:57: =====Stream End: 2021-03-28, 12:08:57=================================================
+12:08:57: CLR host plugin instance deleted; removing dynamically loaded localization strings
+12:08:57: Terminating 0xc68

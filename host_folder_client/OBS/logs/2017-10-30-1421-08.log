@@ -1,0 +1,254 @@
+﻿14:21:08: CLR host plugin strings not found, dynamically loading 4 strings
+14:21:08: CLRHost::Initialize() attempting to load and start the .NET runtime (null)
+14:21:08: CLRHost::Initialize() Found version v2.0.50727 .NET runtime
+14:21:08: CLRHost::Initialize() Found version v4.0.30319 .NET runtime
+14:21:08: CLRHost::Initialize() attempting to use v4.0.30319 .NET runtime
+14:21:08: CLRHost::LoadInteropLibrary() load the assembly plugins\CLRHostPlugin\CLRHost.Interop.dll
+14:21:10: CLRHost::LoadPlugins() attempting to load the plugin assembly CLRBrowserSourcePlugin
+14:21:10: CLRHost:: Could not find/load browser settings at location C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json
+14:21:10: CLRHost:: Exception: System.IO.FileNotFoundException: Could not find file 'C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json'.
+14:21:10: File name: 'C:\Users\Michal Certicky\Desktop\streaming\obs\pluginData\browser.json'
+14:21:10:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+14:21:10:    at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+14:21:10:    at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share)
+14:21:10:    at CLRBrowserSourcePlugin.Shared.BrowserSettings.Reload()
+14:21:11: CLRHost::LoadPlugins() successfully added CLR plugin [Type: CLRBrowserSourcePlugin.CLRBrowserSourcePlugin, Name: CLR Browser Source Plugin]
+14:21:11: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+14:21:11: -------------------------------
+14:21:11: CPU Name: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+14:21:11: CPU Speed: 3092MHz
+14:21:11: Physical Memory:  3071MB Total, 2380MB Free
+14:21:11: stepping id: 3, model 60, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+14:21:11: monitor 1: pos={0, 0}, size={1280, 720}
+14:21:11: Windows Version: 6.1 Build 7601 S
+14:21:11: Aero is Disabled
+14:21:11: -------------------------------
+14:21:11: OBS Modules:
+14:21:11: Base Address     Module
+14:21:11: 00A40000         OBS.exe
+14:21:11: 6E6C0000         OBSApi.dll
+14:21:11: 6D900000         CLRHostPlugin.dll
+14:21:11: 72CF0000         DShowPlugin.dll
+14:21:11: 71A80000         GraphicsCapture.dll
+14:21:11: 662F0000         NoiseGate.dll
+14:21:11: 71C50000         PSVPlugin.dll
+14:21:11: 662D0000         scenesw.dll
+14:21:11: ------------------------------------------
+14:21:11: Adapter 1
+14:21:11:   Video Adapter: VMware SVGA 3D
+14:21:11:   Video Adapter Dedicated Video Memory: 872415232
+14:21:11:   Video Adapter Shared System Memory: 734003200
+14:21:11:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+14:21:11: =====Stream Start: 2017-10-30, 14:21:11===============================================
+14:21:11:   Multithreaded optimizations: On
+14:21:11:   Base resolution: 1280x720
+14:21:11:   Output resolution: 1280x720
+14:21:11: ------------------------------------------
+14:21:11: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+14:21:11: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+14:21:11: ------------------------------------------
+14:21:11: Audio Format: 48000 Hz
+14:21:11: ------------------------------------------
+14:21:11: Audio Channels: 2 Ch
+14:21:11: Playback device Default
+14:21:11: ------------------------------------------
+14:21:11: Using desktop audio input: Speakers (High Definition Audio Device)
+14:21:11: Global Audio time adjust: 0
+14:21:11: ------------------------------------------
+14:21:11: Using auxilary audio input: Microphone (High Definition Audio Device)
+14:21:11: Mic time offset: 0
+14:21:11: ------------------------------------------
+14:21:11: Audio Encoding: AAC
+14:21:11:     bitrate: 128
+14:21:11: Using graphics capture
+14:21:11: Using anti-cheat hooking for game capture
+14:21:11: Scene buffering time set to 700
+14:21:11: ------------------------------------------
+14:21:11: Video Encoding: x264
+14:21:11:     fps: 25
+14:21:11:     width: 1280, height: 720
+14:21:11:     preset: superfast
+14:21:11:     profile: high
+14:21:11:     keyint: 50
+14:21:11:     CBR: yes
+14:21:11:     CFR: yes
+14:21:11:     max bitrate: 2500
+14:21:11:     buffer size: 2500
+14:21:11: ------------------------------------------
+14:21:11: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:21:11:   New Scene
+14:21:12: Using Monitor Capture
+14:21:12: PERFORMANCE WARNING: Scene change took 643 ms, maybe some sources should be global sources?
+14:21:12: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 21388
+14:21:13:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+14:21:13: Completed handshake with rtmp://sscaitournament.com/live in 9 ms.
+14:21:14: CLRHost:: Browser 1: Status message: 
+14:21:26: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 80
+14:21:27: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 90
+14:21:43: Connection to rtmp://sscaitournament.com/live failed: Could not access the specified channel or stream key.  This could be because the key/channel is invalid, or because the server still thinks you are logged in.
+14:21:43: 
+14:21:43: 
+14:21:44: FlushBufferedVideo: Flushing 2 packets over 40 ms
+14:21:44: Total frames encoded: 790, total frames duplicated: 256 (32.41%)
+14:21:44: Number of frames skipped due to encoder lag: 140 (17.72%)
+14:21:44: Total frames rendered: 603, number of late frames: 55 (9.12%) (it's okay for some frames to be late)
+14:21:44: ~RTMPPublisher: Packet flush completed in 0 ms
+14:21:44: Number of times waited to send: 0, Waited for a total of 0 bytes
+14:21:44: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+14:21:44: Number of bytes sent: 0
+14:21:44: 
+14:21:44: Profiler time results:
+14:21:44: 
+14:21:44: ==============================================================
+14:21:44: video thread frame - [100%] [avg time: 25.077 ms] [children: 95.1%] [unaccounted: 4.94%]
+14:21:44: | scene->Preprocess - [67.3%] [avg time: 16.868 ms]
+14:21:44: | GPU download and conversion - [27.8%] [avg time: 6.969 ms] [children: 28.1%] [unaccounted: -0.339%]
+14:21:44: | | flush - [0.152%] [avg time: 0.038 ms]
+14:21:44: | | CopyResource - [27.8%] [avg time: 6.974 ms]
+14:21:44: | | conversion to 4:2:0 - [0.167%] [avg time: 0.042 ms]
+14:21:44: Convert444Thread - [100%] [avg time: 0.66 ms] [children: 99.2%] [unaccounted: 0.758%]
+14:21:44: | Convert444toNV12 - [99.2%] [avg time: 0.655 ms]
+14:21:44: encoder thread frame - [100%] [avg time: 11.346 ms] [children: 0.0353%] [unaccounted: 100%]
+14:21:44: | sending stuff out - [0.0353%] [avg time: 0.004 ms]
+14:21:44: ==============================================================
+14:21:44: 
+14:21:44: 
+14:21:44: Profiler CPU results:
+14:21:44: 
+14:21:44: ==============================================================
+14:21:44: video thread frame - [cpu time: avg 13.996 ms, total 8439.65 ms] [avg calls per frame: 1]
+14:21:44: | scene->Preprocess - [cpu time: avg 12.366 ms, total 7456.85 ms] [avg calls per frame: 1]
+14:21:44: | GPU download and conversion - [cpu time: avg 0.879 ms, total 530.404 ms] [avg calls per frame: 1]
+14:21:44: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+14:21:44: | | CopyResource - [cpu time: avg 0.903 ms, total 530.404 ms] [avg calls per frame: 1]
+14:21:44: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+14:21:44: Convert444Thread - [cpu time: avg 0.559 ms, total 327.602 ms] [avg calls per frame: 1]
+14:21:44: | Convert444toNV12 - [cpu time: avg 0.559 ms, total 327.602 ms] [avg calls per frame: 1]
+14:21:44: encoder thread frame - [cpu time: avg 1.128 ms, total 889.205 ms] [avg calls per frame: 1]
+14:21:44: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+14:21:44: ==============================================================
+14:21:44: 
+14:21:44: =====Stream End: 2017-10-30, 14:21:44=================================================
+14:21:55: =====Stream Start: 2017-10-30, 14:21:55===============================================
+14:21:55:   Multithreaded optimizations: On
+14:21:55:   Base resolution: 1280x720
+14:21:55:   Output resolution: 1280x720
+14:21:55: ------------------------------------------
+14:21:55: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+14:21:55: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+14:21:55: ------------------------------------------
+14:21:55: Audio Format: 48000 Hz
+14:21:55: ------------------------------------------
+14:21:55: Audio Channels: 2 Ch
+14:21:55: Playback device Default
+14:21:55: ------------------------------------------
+14:21:55: Using desktop audio input: Speakers (High Definition Audio Device)
+14:21:55: Global Audio time adjust: 0
+14:21:55: ------------------------------------------
+14:21:55: Using auxilary audio input: Microphone (High Definition Audio Device)
+14:21:55: Mic time offset: 0
+14:21:55: ------------------------------------------
+14:21:55: Audio Encoding: AAC
+14:21:55:     bitrate: 128
+14:21:55: Using Monitor Capture
+14:21:55: Scene buffering time set to 700
+14:21:55: ------------------------------------------
+14:21:55: Video Encoding: x264
+14:21:55:     fps: 25
+14:21:55:     width: 1280, height: 720
+14:21:55:     preset: superfast
+14:21:55:     profile: high
+14:21:55:     keyint: 50
+14:21:55:     CBR: yes
+14:21:55:     CFR: yes
+14:21:55:     max bitrate: 2500
+14:21:55:     buffer size: 2500
+14:21:55: ------------------------------------------
+14:21:55: CLRHost:: Browser 2: Status message: 
+14:21:57:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+14:21:57: Completed handshake with rtmp://sscaitournament.com/live in 31 ms.
+14:21:57: SO_SNDBUF was at 8192
+14:21:57: SO_SNDBUF is now 65536
+14:22:07: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:22:07:   New Scene
+14:22:07: Using graphics capture
+14:22:07: Using anti-cheat hooking for game capture
+14:22:09: Trying to hook process: StarCraft.exe
+14:22:09: using memory capture
+14:22:27: Audio timestamp for device 'Microphone (High Definition Audio Device)' was behind target timestamp by 70
+14:23:00: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:23:00:   New Scene
+14:23:00: Using Monitor Capture
+14:23:01: CLRHost:: Browser 3: Status message: 
+14:23:01: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:23:01:   New Scene
+14:23:01: Using graphics capture
+14:23:01: Using anti-cheat hooking for game capture
+14:23:02: Trying to hook process: StarCraft.exe
+14:23:02: using memory capture
+14:23:25: Capture window 0x00030216 invalid or changing, terminating capture
+14:23:26: Trying to hook process: chrome.exe
+14:23:26: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:23:26:   New Scene
+14:23:26: Using Monitor Capture
+14:23:27: CLRHost:: Browser 4: Status message: 
+14:23:35: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:23:35:   New Scene
+14:23:35: Using graphics capture
+14:23:35: Using anti-cheat hooking for game capture
+14:23:39: Trying to hook process: StarCraft.exe
+14:23:39: using memory capture
+14:23:53: Capture window 0x000600B2 invalid or changing, terminating capture
+14:23:54: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+14:23:54:   New Scene
+14:23:54: Using Monitor Capture
+14:23:55: CLRHost:: Browser 5: Status message: 
+14:25:24: FlushBufferedVideo: Flushing 9 packets over 320 ms
+14:25:24: Total frames encoded: 5200, total frames duplicated: 292 (5.62%)
+14:25:24: Number of frames skipped due to encoder lag: 44 (0.85%)
+14:25:24: Total frames rendered: 5145, number of late frames: 26 (0.51%) (it's okay for some frames to be late)
+14:25:24: 
+14:25:24: Profiler time results:
+14:25:24: 
+14:25:24: ==============================================================
+14:25:24: video thread frame - [100%] [avg time: 11.803 ms] [children: 91.3%] [unaccounted: 8.73%]
+14:25:24: | scene->Preprocess - [39.9%] [avg time: 4.715 ms]
+14:25:24: | GPU download and conversion - [51.3%] [avg time: 6.058 ms] [children: 51.1%] [unaccounted: 0.271%]
+14:25:24: | | flush - [0.169%] [avg time: 0.02 ms]
+14:25:24: | | CopyResource - [50.7%] [avg time: 5.985 ms]
+14:25:24: | | conversion to 4:2:0 - [0.178%] [avg time: 0.021 ms]
+14:25:24: Convert444Thread - [100%] [avg time: 0.637 ms] [children: 98.6%] [unaccounted: 1.41%]
+14:25:24: | Convert444toNV12 - [98.6%] [avg time: 0.628 ms]
+14:25:24: encoder thread frame - [100%] [avg time: 2.029 ms] [children: 5.42%] [unaccounted: 94.6%]
+14:25:24: | sending stuff out - [5.42%] [avg time: 0.11 ms]
+14:25:24: ==============================================================
+14:25:24: 
+14:25:24: 
+14:25:24: Profiler CPU results:
+14:25:24: 
+14:25:24: ==============================================================
+14:25:24: video thread frame - [cpu time: avg 5.685 ms, total 29250.2 ms] [avg calls per frame: 1]
+14:25:24: | scene->Preprocess - [cpu time: avg 4.056 ms, total 20872.9 ms] [avg calls per frame: 1]
+14:25:24: | GPU download and conversion - [cpu time: avg 0.782 ms, total 4024.83 ms] [avg calls per frame: 1]
+14:25:24: | | flush - [cpu time: avg 0.036 ms, total 187.201 ms] [avg calls per frame: 1]
+14:25:24: | | CopyResource - [cpu time: avg 0.687 ms, total 3525.62 ms] [avg calls per frame: 1]
+14:25:24: | | conversion to 4:2:0 - [cpu time: avg 0.033 ms, total 171.602 ms] [avg calls per frame: 1]
+14:25:24: Convert444Thread - [cpu time: avg 0.447 ms, total 2293.22 ms] [avg calls per frame: 1]
+14:25:24: | Convert444toNV12 - [cpu time: avg 0.444 ms, total 2277.61 ms] [avg calls per frame: 1]
+14:25:24: encoder thread frame - [cpu time: avg 0.7 ms, total 3634.82 ms] [avg calls per frame: 1]
+14:25:24: | sending stuff out - [cpu time: avg 0.048 ms, total 249.602 ms] [avg calls per frame: 1]
+14:25:24: ==============================================================
+14:25:24: 
+14:25:24: =====Stream End: 2017-10-30, 14:25:24=================================================
+14:25:24: ~RTMPPublisher: Packet flush completed in 129 ms
+14:25:24: ~RTMPPublisher: Send thread terminated in 0 ms
+14:25:24: RTMPPublisher::SocketLoop: Graceful loop exit
+14:25:24: ~RTMPPublisher: Socket thread terminated in 0 ms
+14:25:24: ~RTMPPublisher: Final socket shutdown completed in 1 ms
+14:25:24: Average send payload: 8739 bytes, average send interval: 26 ms
+14:25:24: Number of times waited to send: 0, Waited for a total of 0 bytes
+14:25:24: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+14:25:24: Number of bytes sent: 68086656
+14:25:24: CLR host plugin instance deleted; removing dynamically loaded localization strings
+14:25:24: Terminating 0x53c
+14:25:24: Terminating 0x904

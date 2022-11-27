@@ -1,0 +1,115 @@
+scenes : {
+  Brood War : {
+    class : Scene
+    sources : {
+      App Capture on F12 : {
+        render : 1
+        class : GraphicsCapture
+        data : {
+          window : "[firefox]: brood war storm dll - Google Search - Mozilla Firefox"
+          windowClass : SWarClass
+          executable : firefox.exe
+          stretchImage : 1
+          alphaBlend : 1
+          ignoreAspect : 0
+          captureMouse : 0
+          invertMouse : 0
+          safeHook : 1
+          useHotkey : 1
+          hotkey : 190
+          gamma : 100
+        }
+        cx : 1280
+        cy : 720
+      }
+      Monitor Capture : {
+        render : 0
+        class : MonitorCaptureSource
+        data : {
+          captureType : 0
+          monitor : 0
+          innerWindow : 0
+          regionCapture : 0
+          captureMouse : 0
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 1920
+          captureCY : 1080
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 1920
+        cy : 1080
+      }
+    }
+  }
+  Monitor : {
+    class : Scene
+    sources : {
+      CLR Browser : {
+        render : 1
+        class : CLRBrowserSource
+        data : {
+          sourceSettings : eyJDU1MiOiJib2R5IHtcdTAwMGRcdTAwMGEgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGF9XHUwMDBkXHUwMDBhIiwiRnBzIjozMCwiSGVpZ2h0IjozMDAsIklzQXBwbHlpbmdUZW1wbGF0ZSI6ZmFsc2UsIklzTXV0ZWQiOmZhbHNlLCJJc1Nob3dpbmdBZHZhbmNlZFByb3BlcnRpZXMiOmZhbHNlLCJPcGFjaXR5IjoxLCJUZW1wbGF0ZSI6IjxodG1sPlx1MDAwZFx1MDAwYSAgPGhlYWQ+XHUwMDBkXHUwMDBhIFx1MDAwOSAgPG1ldGEgY2hhcnNldD0ndXRmLTgnXC8+XHUwMDBkXHUwMDBhICAgICAgIDxzdHlsZT5cdTAwMGRcdTAwMGEgICAgICAgICBib2R5IHtcdTAwMGRcdTAwMGEgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwgMCwgMCwgMCk7XHUwMDBkXHUwMDBhICAgICAgICAgICBtYXJnaW46IDBweCBhdXRvO1x1MDAwZFx1MDAwYSAgICAgICAgICAgb3ZlcmZsb3c6IGhpZGRlbjtcdTAwMGRcdTAwMGEgICAgICAgICB9XHUwMDBkXHUwMDBhICAgICAgIDxcL3N0eWxlPlx1MDAwZFx1MDAwYSAgPFwvaGVhZD5cdTAwMGRcdTAwMGEgIDxib2R5Plx1MDAwZFx1MDAwYSAgICA8b2JqZWN0XHUwMDBkXHUwMDBhICAgICAgdHlwZT0nJChNSU1FVFlQRSknXHUwMDBkXHUwMDBhICAgICAgd2lkdGg9JyQoV0lEVEgpJ1x1MDAwZFx1MDAwYSAgICAgIGhlaWdodD0nJChIRUlHSFQpJ1x1MDAwZFx1MDAwYSAgICAgIGRhdGE9JyQoRklMRSknXHUwMDBkXHUwMDBhICAgICAgd21vZGU9J3RyYW5zcGFyZW50Jz5cdTAwMGRcdTAwMGEgICAgPFwvb2JqZWN0Plx1MDAwZFx1MDAwYSAgPFwvYm9keT5cdTAwMGRcdTAwMGE8XC9odG1sPlx1MDAwZFx1MDAwYSIsIlVybCI6Imh0dHA6XC9cL3N0cmVhbWxhYnMuY29tXC9hbGVydC1ib3hcL3YzXC84MDUwMzE4OTM0NTRBQjI4OUIwNSIsIlZvbHVtZSI6MCwiV2lkdGgiOjEyODB9
+          instanceSettings : eyJBcHBsaWNhdGlvbkNhY2hlIjowLCJDYXJldEJyb3dzaW5nIjowLCJDdXJzaXZlRm9udEZhbWlseSI6bnVsbCwiRGF0YWJhc2VzIjowLCJEZWZhdWx0RW5jb2RpbmciOm51bGwsIkRlZmF1bHRGaXhlZEZvbnRTaXplIjowLCJEZWZhdWx0Rm9udFNpemUiOjAsIkZhbnRhc3lGb250RmFtaWx5IjpudWxsLCJGaWxlQWNjZXNzRnJvbUZpbGVVcmxzIjoxLCJGaXhlZEZvbnRGYW1pbHkiOm51bGwsIkltYWdlTG9hZGluZyI6MCwiSW1hZ2VTaHJpbmtTdGFuZGFsb25lVG9GaXQiOjAsIkphdmEiOjAsIkphdmFTY3JpcHQiOjAsIkphdmFTY3JpcHRBY2Nlc3NDbGlwYm9hcmQiOjAsIkphdmFTY3JpcHRDbG9zZVdpbmRvd3MiOjAsIkphdmFTY3JpcHREb21QYXN0ZSI6MCwiSmF2YVNjcmlwdE9wZW5XaW5kb3dzIjowLCJMb2NhbFN0b3JhZ2UiOjAsIk1pbmltdW1Gb250U2l6ZSI6MCwiTWluaW11bUxvZ2ljYWxGb250U2l6ZSI6MCwiUGFnZUNhY2hlIjowLCJQbHVnaW5zIjowLCJSZW1vdGVGb250cyI6MCwiU2Fuc1NlcmlmRm9udEZhbWlseSI6bnVsbCwiU2VyaWZGb250RmFtaWx5IjpudWxsLCJTdGFuZGFyZEZvbnRGYW1pbHkiOm51bGwsIlVuaXZlcnNhbEFjY2Vzc0Zyb21GaWxlVXJscyI6MSwiV2ViR0wiOjAsIldlYlNlY3VyaXR5IjoyfQ==
+        }
+        cx : 1280
+        cy : 300
+      }
+      App Capture on F12 : {
+        render : 0
+        class : GraphicsCapture
+        data : {
+          window : "[firefox]: brood war storm dll - Google Search - Mozilla Firefox"
+          windowClass : SWarClass
+          executable : firefox.exe
+          stretchImage : 0
+          alphaBlend : 0
+          ignoreAspect : 0
+          captureMouse : 0
+          invertMouse : 0
+          safeHook : 0
+          useHotkey : 1
+          hotkey : 190
+          gamma : 100
+        }
+        cx : 1280
+        cy : 720
+      }
+      Monitor Capture : {
+        render : 1
+        class : MonitorCaptureSource
+        data : {
+          captureType : 0
+          monitor : 0
+          innerWindow : 0
+          regionCapture : 0
+          captureMouse : 0
+          captureLayered : 0
+          compatibilityMode : 0
+          usePointFiltering : 0
+          captureX : 0
+          captureY : 0
+          captureCX : 1920
+          captureCY : 1080
+          useColorKey : 0
+          keyColor : -1
+          keySimilarity : 10
+          keyBlend : 0
+          opacity : 100
+          gamma : 100
+        }
+        cx : 1920
+        cy : 1080
+      }
+    }
+    hotkey : 0
+  }
+}

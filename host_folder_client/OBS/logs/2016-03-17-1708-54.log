@@ -1,0 +1,115 @@
+﻿17:08:54: Open Broadcaster Software v0.64b - 32bit (´・ω・｀)
+17:08:54: -------------------------------
+17:08:54: CPU Name: Intel(R) Core(TM) i5-4440 CPU @ 3.10GHz
+17:08:54: CPU Speed: 3092MHz
+17:08:54: Physical Memory:  3071MB Total, 2432MB Free
+17:08:54: stepping id: 3, model 60, family 6, type 0, extmodel 1, extfamily 0, HTT 1, logical cores 2, total cores 2
+17:08:54: monitor 1: pos={0, 0}, size={1280, 720}
+17:08:54: Windows Version: 6.1 Build 7601 S
+17:08:54: Aero is Disabled
+17:08:54: -------------------------------
+17:08:54: OBS Modules:
+17:08:54: Base Address     Module
+17:08:54: 008C0000         OBS.exe
+17:08:54: 6E100000         OBSApi.dll
+17:08:54: 6DC70000         DShowPlugin.dll
+17:08:54: 6DC40000         GraphicsCapture.dll
+17:08:54: 6DBF0000         NoiseGate.dll
+17:08:54: 6DBD0000         PSVPlugin.dll
+17:08:54: 6DAC0000         scenesw.dll
+17:08:55: ------------------------------------------
+17:08:55: Adapter 1
+17:08:55:   Video Adapter: VMware SVGA 3D
+17:08:55:   Video Adapter Dedicated Video Memory: 872415232
+17:08:55:   Video Adapter Shared System Memory: 734003200
+17:08:55:   Video Adapter Output 1: pos={0, 0}, size={1280, 720}, attached=true
+17:08:55: =====Stream Start: 2016-03-17, 17:08:55===============================================
+17:08:55:   Multithreaded optimizations: On
+17:08:55:   Base resolution: 1280x720
+17:08:55:   Output resolution: 1280x720
+17:08:55: ------------------------------------------
+17:08:55: Loading up D3D10 on VMware SVGA 3D (Adapter 1)...
+17:08:55: D3D10CreateDeviceAndSwapChain1: Failed on VMware SVGA 3D: 0x80004002. Trying compatibility mode
+17:08:55: ------------------------------------------
+17:08:55: Audio Format: 48000 Hz
+17:08:55: ------------------------------------------
+17:08:55: Audio Channels: 2 Ch
+17:08:55: Playback device Default
+17:08:55: ------------------------------------------
+17:08:55: Using desktop audio input: Speakers (High Definition Audio Device)
+17:08:55: Global Audio time adjust: 0
+17:08:55: ------------------------------------------
+17:08:55: Using auxilary audio input: Microphone (High Definition Audio Device)
+17:08:55: Mic time offset: 0
+17:08:55: ------------------------------------------
+17:08:55: Audio Encoding: AAC
+17:08:55:     bitrate: 128
+17:08:55: Using graphics capture
+17:08:55: Using anti-cheat hooking for game capture
+17:08:55: Scene buffering time set to 700
+17:08:55: ------------------------------------------
+17:08:55: Video Encoding: x264
+17:08:55:     fps: 25
+17:08:55:     width: 1280, height: 720
+17:08:55:     preset: superfast
+17:08:55:     profile: high
+17:08:55:     keyint: 50
+17:08:55:     CBR: yes
+17:08:55:     CFR: yes
+17:08:55:     max bitrate: 2500
+17:08:55:     buffer size: 2500
+17:08:55: ------------------------------------------
+17:08:56: ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+17:08:56:   New Scene
+17:08:56: Using Monitor Capture
+17:08:56: PERFORMANCE WARNING: Scene change took 540 ms, maybe some sources should be global sources?
+17:08:57:   Interface: Intel(R) PRO/1000 MT Network Connection (ethernet, 1000 mbps)
+17:08:57: Completed handshake with rtmp://sscaitournament.com/live in 11 ms.
+17:08:57: FlushBufferedVideo: Flushing 2 packets over 40 ms
+17:08:57: Total frames encoded: 18, total frames duplicated: 8 (44.44%)
+17:08:57: Total frames rendered: 26, number of late frames: 12 (46.15%) (it's okay for some frames to be late)
+17:08:57: librtmp error: RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10053 (An established connection was aborted by the software in your host machine.)
+17:08:57: Connection to rtmp://sscaitournament.com/live failed: Could not access the specified channel or stream key.  This could be because the key/channel is invalid, or because the server still thinks you are logged in.
+17:08:57: 
+17:08:57: RTMPSockBuf_Fill, recv returned -1. GetSockError(): 10053 (An established connection was aborted by the software in your host machine.)
+17:08:57: 
+17:08:57: ~RTMPPublisher: Packet flush completed in 0 ms
+17:08:57: Number of times waited to send: 0, Waited for a total of 0 bytes
+17:08:57: Number of b-frames dropped: 0 (0%), Number of p-frames dropped: 0 (0%), Total 0 (0%)
+17:08:57: Number of bytes sent: 0
+17:08:57: 
+17:08:57: Profiler time results:
+17:08:57: 
+17:08:57: ==============================================================
+17:08:57: video thread frame - [100%] [avg time: 50.693 ms] [children: 95.8%] [unaccounted: 4.25%]
+17:08:57: | scene->Preprocess - [77.4%] [avg time: 39.235 ms]
+17:08:57: | GPU download and conversion - [18.4%] [avg time: 9.306 ms] [children: 40.8%] [unaccounted: -22.4%]
+17:08:57: | | flush - [0.0217%] [avg time: 0.011 ms]
+17:08:57: | | CopyResource - [40.7%] [avg time: 20.608 ms]
+17:08:57: | | conversion to 4:2:0 - [0.126%] [avg time: 0.064 ms]
+17:08:57: Convert444Thread - [100%] [avg time: 3.216 ms] [children: 99.9%] [unaccounted: 0.124%]
+17:08:57: | Convert444toNV12 - [99.9%] [avg time: 3.212 ms]
+17:08:57: encoder thread frame - [100%] [avg time: 7.018 ms] [children: 0.271%] [unaccounted: 99.7%]
+17:08:57: | sending stuff out - [0.271%] [avg time: 0.019 ms]
+17:08:57: ==============================================================
+17:08:57: 
+17:08:57: 
+17:08:57: Profiler CPU results:
+17:08:57: 
+17:08:57: ==============================================================
+17:08:57: video thread frame - [cpu time: avg 39.6 ms, total 1029.61 ms] [avg calls per frame: 1]
+17:08:57: | scene->Preprocess - [cpu time: avg 33 ms, total 858.005 ms] [avg calls per frame: 1]
+17:08:57: | GPU download and conversion - [cpu time: avg 4.2 ms, total 109.201 ms] [avg calls per frame: 1]
+17:08:57: | | flush - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+17:08:57: | | CopyResource - [cpu time: avg 9.927 ms, total 109.201 ms] [avg calls per frame: 0]
+17:08:57: | | conversion to 4:2:0 - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 0]
+17:08:57: Convert444Thread - [cpu time: avg 4.68 ms, total 46.8 ms] [avg calls per frame: 1]
+17:08:57: | Convert444toNV12 - [cpu time: avg 4.68 ms, total 46.8 ms] [avg calls per frame: 1]
+17:08:57: encoder thread frame - [cpu time: avg 3.9 ms, total 62.4 ms] [avg calls per frame: 1]
+17:08:57: | sending stuff out - [cpu time: avg 0 ms, total 0 ms] [avg calls per frame: 1]
+17:08:57: ==============================================================
+17:08:57: 
+17:08:57: =====Stream End: 2016-03-17, 17:08:57=================================================
+17:08:59: Terminating 0xb64
+17:08:59: Memory Leaks Were Detected.
+17:08:59: 
