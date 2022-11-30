@@ -3,3 +3,5 @@ out
 sscai-tournamentmanager.iml
 host_folder_server/log_restarts.log
 host_folder_server/cron_scripts/cron_checkIfStreamWorksLastBlack.txt
+host_folder_server/server_settings.ini
+host_folder_client/client_settings.ini

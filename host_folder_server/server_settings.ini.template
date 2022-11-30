@@ -18,13 +18,13 @@ CompetitivePhase        false
 RestartAfterGames       50
 
 # Command that is called before all the scheduled restarts (after N games).
-PreRestartCommand       "/usr/bin/python /absolute/path/to/preVMRestart.py"
+PreRestartCommand       "/bin/sh -c echo example"
 
 # Comand that should kill the server, start it again and restart both VMs. It should finish fast, so it needs to just schedule this all via Linux "at" command.
-RestartAllCommand       "/bin/sh -c /absolute/path/to/restartall.sh"
+RestartAllCommand       "/bin/sh -c echo example"
 
 # Absolute path to a server log file.
-LogFilePath             /absolute/path/to/log_restarts.log
+LogFilePath             /absolute/path/to/log_restarts.txt
 
 # Break ties using the in-game kills+razings score.
 BreakTies               true
@@ -67,9 +67,9 @@ Map maps/sscai/(4)Roadrunner.scx
 ############################################################
 # Emailing
 ############################################################
-GmailFromEmail gmail-account@gmail.com
+GmailFromEmail gmailaccount@gmail.com
 GmailEmailPassword gmail-password
-AdminEmail certicky@gmail.com
+AdminEmail admin@gmail.com
 AllowEmailsToParticipants false
 
 #################################################################
