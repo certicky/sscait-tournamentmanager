@@ -2,7 +2,7 @@
 
 ### Disclaimer
 
-This repository is originally based on several years old version of *StarCraftAITournamentManager* by Dave Churchiland Rick Kelly from https://github.com/davechurchill/StarcraftAITournamentManager. It still contains a considerable amount of its original code.
+This repository is originally based on several years old version of *StarCraftAITournamentManager* by Dave Churchill and Rick Kelly from https://github.com/davechurchill/StarcraftAITournamentManager. It still contains a considerable amount of its original code.
 
 This particular implementation is currently (as of 2022) used to run Student StarCraft AI Tournament (SSCAIT): http://sscaitournament.com/
 
