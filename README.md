@@ -1,5 +1,11 @@
 ## SSCAIT Tournament Manager
 
+### Disclaimer
+
+This repository is originally based on several years old version of *StarCraftAITournamentManager* by Dave Churchiland Rick Kelly from https://github.com/davechurchill/StarcraftAITournamentManager. It still contains a considerable amount of its original code.
+
+This particular implementation is currently (as of 2022) used to run Student StarCraft AI Tournament (SSCAIT): http://sscaitournament.com/
+
 ### Prerequisites
 
 * **One host machine**, where the server and the database are running. SSCAIT host runs on Ubuntu Linux server, but it should probably work almost anywhere.
@@ -14,7 +20,7 @@
 
 #### Host machine setup
 
-* Clone this repo to somewhere on your Host machine.
+* Clone this repo to preferred location on your Host machine.
 * Install Java.
 * Install MySQL database server and create a database called `sc`.
   * Create a user with read & write permissions to that database.
