@@ -83,7 +83,7 @@ This particular implementation is currently (as of 2022) used to run Student Sta
 
 * (optional) You can use OBS (in `C:\TM\OBS\`) to stream what's happening on Client machines.
 * (optional) You can use some of the AHK scripts (if you install AutoHotKey) on the Client machines to auto-close windows error messages, to control OBS, etc.
-* (optional) You can useChromium (`C:\TM\Chromium\run_chromium.bat`) to display the game schedule.
+* (optional) You can use Chromium (`C:\TM\Chromium\run_chromium.bat`) to display the game schedule on the Client machine (makes sense when also streaming).
 
 ### Development
 
