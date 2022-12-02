@@ -6,6 +6,10 @@ This repository is originally based on several years old version of *StarCraftAI
 
 This particular implementation is currently (as of 2022) used to run Student StarCraft AI Tournament (SSCAIT): http://sscaitournament.com/
 
+### Related repositories / addons
+* Tournament Module DLL that's injected to StarCraft process and controls the camera, timeouts and results: https://github.com/certicky/sscait-tournamentmodule
+* Web frontend for the tournament that displays the game schedule and bot scores and allows bot authors to upload their bots: https://github.com/certicky/sscait-web (live at https://sscaitournament.com)
+
 ### Prerequisites
 
 * **One host machine**, where the server and the database are running. SSCAIT host runs on Ubuntu Linux server, but it should probably work almost anywhere.
