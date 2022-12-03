@@ -5,3 +5,9 @@ host_folder_server/log_restarts.log
 host_folder_server/cron_scripts/cron_checkIfStreamWorksLastBlack.txt
 host_folder_server/server_settings.ini
 host_folder_client/client_settings.ini
+host_folder_server/executeRestart.sh
+host_folder_server/findReplaysWhereBotDidntStart.py
+host_folder_server/preVMRestart.py
+host_folder_server/restartall.sh
+host_folder_server/screp
+host_folder_server/x11vnc.sh
