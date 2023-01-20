@@ -1,1 +1,6 @@
-Main-Class: server.ServerMain
+Manifest-Version: 1.0
+Rsrc-Class-Path: ./ mysql-connector-java.jar javax.mail.jar
+Class-Path: .
+Rsrc-Main-Class: server.ServerMain
+Main-Class: org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader
+
