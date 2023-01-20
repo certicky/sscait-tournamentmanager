@@ -7,9 +7,6 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Vector;
-
-import com.sun.xml.internal.ws.api.config.management.policy.ManagementAssertion.Setting;
-
 import objects.Bot;
 import objects.Game;
 import objects.Map;
