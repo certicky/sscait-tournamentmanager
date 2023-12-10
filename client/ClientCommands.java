@@ -79,24 +79,16 @@ public class ClientCommands
 		}
 		
 		// Run the proxy bot:
-		// Try running it a few times with pauses, if unsuccessful. 
-		// The proxy bot has successfully started, if there are more running processes than before.
-		Vector<Integer> nowRunning = WindowsCommandTools.GetRunningProcesses(); 
-		int tries = 0;
-		while (tries < 5 && nowRunning.size() >= WindowsCommandTools.GetRunningProcesses().size() ) {
-			tries += 1;
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) { e.printStackTrace();	}
-			
-			Client.log("     Trying to run "+ proxyBatPath +" (attempt "+ tries +")\n");
-			WindowsCommandTools.RunWindowsCommand(proxyBatPath, false, false);
-			
-			try {
-				Thread.sleep(3000);
-			} catch (InterruptedException e) { e.printStackTrace();	}
-			
-		}
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) { e.printStackTrace();	}
+		
+		Client.log("     Running "+ proxyBatPath +"\n");
+		WindowsCommandTools.RunWindowsCommand(proxyBatPath, false, false);
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) { e.printStackTrace();	}
 	}
 	
 	// makes edits to the Windows registry
@@ -126,7 +118,7 @@ public class ClientCommands
 		Client.log("     Client_KillStarcraft()\n");
 		while (WindowsCommandTools.IsWindowsProcessRunning("StarCraft.exe"))
 		{
-			WindowsCommandTools.RunWindowsCommand("taskkill /F /IM StarCraft.exe", true, false);
+			WindowsCommandTools.RunWindowsCommand("taskkill /T /F /IM StarCraft.exe", true, false);
 			try { Thread.sleep(100); } catch (InterruptedException e) {}
 		} 
 	}
