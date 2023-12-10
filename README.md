@@ -94,8 +94,8 @@ This particular implementation is currently (as of 2022) used to run Student Sta
 * You're mainly interested in the Java source files in folders: `server`, `client`, `objects`, `utility` (there are some additional dependencies in `lib`)
 * **Host** app needs to be built as a **JAR** file `host_folder_server/sscai-server.jar` to be properly used. It needs to contain all the dependencies, so it's runnable as a standalone JAR from anywhere. You can prepare and test the runnable JAR using these commands:
   * Run to compile all the .java files: `javac -cp "lib/*" server/*.java client/*.java objects/*.java utility/*.java`
-  * Run to create a runnable JAR file: `jar -cvfm host_folder_server/sscai-client.jar config/Manifest_Server.txt client/*.class objects/*.class utility/*.class server/*.class org/eclipse/jdt/internal/jarinjarloader/*.class lib/*.jar`
-  * Run on the host to test: `java -jar host_folder_client/sscai-client.jar host_folder_server/server_settings.ini`
+  * Run to create a runnable JAR file: `jar -cvfm host_folder_server/sscai-server.jar config/Manifest_Server.txt client/*.class objects/*.class utility/*.class server/*.class org/eclipse/jdt/internal/jarinjarloader/*.class lib/*.jar`
+  * Run on the host to test: `java -jar host_folder_server/sscai-server.jar host_folder_server/server_settings.ini`
 * **Client** app needs to be built as a **JAR** file `host_folder_client/sscai-client.jar` to be properly used. It needs to contain all the dependencies, so it's runnable as a standalone JAR from anywhere. You can prepare and test the runnable JAR using these commands:
   * Run to compile all the .java files: `javac -cp "lib/*" server/*.java client/*.java objects/*.java utility/*.java`
   * Run to create a runnable JAR file: `jar -cvfm host_folder_client/sscai-client.jar config/Manifest_Client.txt client/*.class objects/*.class utility/*.class server/*.class org/eclipse/jdt/internal/jarinjarloader/*.class lib/*.jar`
