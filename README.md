@@ -51,7 +51,7 @@ This particular implementation is currently (as of 2022) used to run Student Sta
   * Update the settings in your newly created `server_settings.ini` file like this:
     * `ServerRequirementsDir` should be an absolute path to `host_folder_server/server_requirements` on your Host machine.
     * `BotsDir` is an absolute path to your Bots folder.
-    * `ReplaysDir` is an absolute path to any folder on your Host machine, where you want the replays to be stored. Make sure the user running the server has write permissions there.
+    * `ReplaysDir` is an absolute path to any folder on your Host machine, where you want the replays to be stored. Make sure that the folder exists and that the user running the server has write permissions there.
     * `LogFilePath` is an absolute path to a text file where the server stores some logs. Make sure the user running the server has write permissions there.
     * `Database*` are 5 variables holding the credentials of your MySQL DB and a DB user with access to the `sc` database.
     * `GmailFromEmail` and `GmailEmailPassword` are a credentials of a real Gmail user, which is used to send emails to bot authors (disabled by default) or to the admin (you).
