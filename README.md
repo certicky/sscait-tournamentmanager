@@ -67,7 +67,7 @@ This particular implementation is currently (as of 2022) used to run Student Sta
 
 * Make sure you have two Windows 7 machines prepared. SSCAIT uses two Windows 7 VMs running on VMWare Workstation, but you can use different virtualization software, or even physical machines.
 * Make sure both Client machines have network access to the Host and to each other, so they can communicate with the Java server and play StarCraft via LAN.
-* Mount the `host_folder_client` folder from the Host machine as a Windows network drive, so that its contents are accessible under path `Z:\Client\`. You might need to create some symbolic links on the Host machine to make this work. You should now have access to folders like `Z:\Client\additionalRequirements\` and `Z:\Client\chaoslauncher\`.
+* Mount the `host_folder_client` folder from the Host machine as a Windows network drive, so that its contents are accessible under path `Z:\Client\`. It should preferably be mounted read-only, so that the bots can't mess with the files. You might need to create some symbolic links on the Host machine to make this work. You should now have access to folders like `Z:\Client\additionalRequirements\` and `Z:\Client\chaoslauncher\`.
 * Create a folder `C:\TM\` on your Client machines.
 * Copy the contents of `client_copy_to_VM` to `C:\TM\`. You should now have a file `C:\TM\client_settings.ini.template` on your Client machines.
 * Make a copy of `C:\TM\client_settings.ini.template` and save it as `C:\TM\client_settings.ini` on both machines. Edit the new settings file as follows:
@@ -82,7 +82,7 @@ This particular implementation is currently (as of 2022) used to run Student Sta
 
 #### Running a Client machine
 
-* Run `setupAndRun.bat` on both Client machines. This should get the Java Client app JAR and additional requirements from the Host machine and run the Java Client app. A `java.net.UnknownHostException: sscaitournament.com` exception is shown for every message shown in the CMD window but you can ignore them.
+* Run `Z:\Client\setupAndRun.bat` on both Client machines. This should get the Java Client app JAR and additional requirements from the Host machine and run the Java Client app. A `java.net.UnknownHostException: sscaitournament.com` exception is shown for every message shown in the CMD window but you can ignore them.
   * The Java Client app should start up in a new commandline window, where you'll see debug messages. It will connect to the Host server.
   * Once both Clients are connected to the server, they will receive the bot files, the map, and the instruction to run the game.
   * The Java Clients will run the bot files they received from the server (or inject them into StarCraft process in case of DLL bots).
