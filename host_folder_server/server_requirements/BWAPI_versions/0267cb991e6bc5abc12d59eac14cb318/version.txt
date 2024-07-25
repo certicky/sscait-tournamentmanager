@@ -1,0 +1,2 @@
+This is the re-release of BWAPI ver. 4.2.0 (i.e. in the official release file BWAPI.VS.15.7.3.7z).
+The tournament module was compiled under the original release of 4.2.0, which should, however, be compatible with this DLL.
