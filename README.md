@@ -27,6 +27,7 @@ This particular implementation is currently (as of 2022) used to run Student Sta
 * Clone this repo to preferred location on your Host machine.
 * Install Java. On the host, it's not important whether Java is 64-bit or 32-bit (only the client machines need to use 32-bit Java).
 * Install MySQL database server (note: versions since about version 8 aren't compatible with the driver, but 5.7 works) and create a database called `sc`.
+  * After installing MySQL, it is recommended to run `sudo mysql_secure_installation` to secure the MySQL installation by answering the prompts, e.g. require strong passwords, remove anonymous users, disallow root login remotely, remove test database and access to it, reload privilege tables.
   * Create a user with read & write permissions to that database.
   * Import/run the `database.sql` file to create the required DB tables, such as `games`, `fos_user`, `achievements`, etc.
 
